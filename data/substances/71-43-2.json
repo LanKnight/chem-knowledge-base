@@ -1,0 +1,21 @@
+{
+  "substance": {"cas_number":"71-43-2","name_cn":"苯","name_en":"Benzene","molecular_formula":"C6H6","molecular_weight":78.11,"smiles":"c1ccccc1","substance_type":"organic","chemical_class":"aromatic_hydrocarbon","state_at_25c":"liquid"},
+  "names":[{"name":"Benzol","language":"en","name_type":"synonym"},{"name":"Cyclohexatriene","language":"en","name_type":"historical"}],
+  "properties":[
+    {"property_type":"boiling_point","value":80.1,"unit":"°C"},
+    {"property_type":"melting_point","value":5.5,"unit":"°C"},
+    {"property_type":"density","value":0.8765,"unit":"g/cm3","condition_temp":20},
+    {"property_type":"vapor_pressure","value":12.6,"unit":"kPa","condition_temp":25},
+    {"property_type":"solubility","value":1.79,"unit":"g/L","condition_temp":25},
+    {"property_type":"flash_point","value":-11,"unit":"°C"},
+    {"property_type":"autoignition_temperature","value":498,"unit":"°C"},
+    {"property_type":"explosion_limits","value_min":1.2,"value_max":8.0,"unit":"% in air"}
+  ],
+  "thermodynamics":[
+    {"data_type":"enthalpy_of_formation","value":49.0,"unit":"kJ/mol","phase":"l","standard_state":true},
+    {"data_type":"enthalpy_of_formation","value":82.9,"unit":"kJ/mol","phase":"g"}
+  ],
+  "processes":[{"process_name_cn":"催化重整","process_name_en":"Catalytic Reforming","description_cn":"苯主要通过石脑油催化重整（占44-50%）生产，与甲苯和二甲苯一起形成BTX芳烃流，经溶剂萃取和精馏分离。其他路线包括甲苯加氢脱烷基化（HDA）、甲苯歧化和蒸汽裂解副产回收。全球产能约6000万吨/年。","temperature_opt":500,"catalyst":"Pt/Al2O3 (催化重整)","industrial_significance":"苯是最重要的基础芳烃，约52%用于乙苯/苯乙烯（→聚苯乙烯），22%用于异丙苯/苯酚，15%用于环己烷（→尼龙），7%用于硝基苯/苯胺","source":"web_search"}],
+  "safety":{"ghs_classifications":[{"code":"GHS02","label":"易燃"},{"code":"GHS07","label":"刺激性"},{"code":"GHS08","label":"健康危害"}],"signal_word":"Danger","h_codes":["H225","H304","H315","H319","H340","H350","H372"],"nfpa_health":2,"nfpa_fire":3,"nfpa_reactivity":0,"un_number":"1114"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

@@ -1,0 +1,18 @@
+{
+  "substance": {"cas_number":"75-21-8","name_cn":"环氧乙烷","name_en":"Ethylene oxide","molecular_formula":"C2H4O","molecular_weight":44.05,"smiles":"C1CO1","substance_type":"organic","chemical_class":"epoxide","state_at_25c":"gas"},
+  "names":[{"name":"Oxirane","language":"en","name_type":"systematic"},{"name":"EO","language":"en","name_type":"abbreviation"}],
+  "properties":[
+    {"property_type":"boiling_point","value":10.5,"unit":"°C"},
+    {"property_type":"melting_point","value":-112,"unit":"°C"},
+    {"property_type":"density","value":0.882,"unit":"g/cm3","condition_temp":25},
+    {"property_type":"vapor_pressure","value":146,"unit":"kPa","condition_temp":20},
+    {"property_type":"solubility","value_text":"Miscible with water","unit":""},
+    {"property_type":"flash_point","value":-20,"unit":"°C"},
+    {"property_type":"autoignition_temperature","value":429,"unit":"°C"},
+    {"property_type":"explosion_limits","value_min":3,"value_max":100,"unit":"% in air"}
+  ],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":-52.6,"unit":"kJ/mol","phase":"g","standard_state":true}],
+  "processes":[{"process_name_cn":"乙烯直接氧化法","process_name_en":"Ethylene Direct Oxidation","description_cn":"环氧乙烷由乙烯与氧气在银催化剂上直接氧化制得：2C2H4 + O2 → 2C2H4O。反应在200-300°C、1-2 MPa下进行，银催化剂选择性约70-80%。环氧乙烷是重要的有机化工中间体，主要用于生产乙二醇（防冻液、PET聚酯，~70%）、乙醇胺、乙二醇醚和表面活性剂。也用作医疗设备灭菌（低温环氧乙烷灭菌）和熏蒸消毒。","temperature_min":200,"temperature_max":300,"pressure_opt":1.5,"catalyst":"Ag/α-Al2O3","raw_materials":["Ethylene","Oxygen"],"source":"web_search"}],
+  "safety":{"ghs_classifications":[{"code":"GHS02","label":"易燃"},{"code":"GHS04","label":"压缩气体"},{"code":"GHS06","label":"毒性"},{"code":"GHS08","label":"健康危害"}],"signal_word":"Danger","h_codes":["H220","H230","H280","H301","H314","H331","H340","H350","H360FD"],"nfpa_health":3,"nfpa_fire":4,"nfpa_reactivity":3,"un_number":"1040","exposure_limits":"OSHA PEL 1 ppm TWA; IARC Group 1 carcinogen"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

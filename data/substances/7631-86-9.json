@@ -1,0 +1,8 @@
+{
+  "substance": {"cas_number":"7631-86-9","name_cn":"二氧化硅","name_en":"Silicon dioxide","molecular_formula":"SiO2","molecular_weight":60.08,"smiles":"O=[Si]=O","substance_type":"inorganic","chemical_class":"acidic_oxide","state_at_25c":"solid"},
+  "properties":[{"property_type":"melting_point","value":1713,"unit":"°C"},{"property_type":"boiling_point","value":2950,"unit":"°C"},{"property_type":"density","value":2.65,"unit":"g/cm3","value_text":"quartz; 2.20 amorphous"},{"property_type":"solubility","value":0.012,"unit":"g/L","condition_temp":25}],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":-910.7,"unit":"kJ/mol","phase":"s","standard_state":true,"value_text":"α-quartz"}],
+  "processes":[{"process_name_cn":"天然开采+沉淀法","process_name_en":"Mining + Precipitation","description_cn":"结晶SiO2以石英矿形式天然存在。无定形SiO2（硅胶）由水玻璃（Na2SiO3）酸化沉淀制得。SiO2是重要的催化剂载体——高比表面积硅胶（300-600 m²/g）广泛用于负载型催化剂。也是合成氨催化剂的结构促进剂、流化催化裂化（FCC）催化剂的基质组分。此外用于玻璃制造（主要成分）、电子封装材料、食品抗结剂（E551）。气相法白炭黑（fumed silica）用作涂料和密封剂的触变剂。","source":"web_search"}],
+  "safety":{"nfpa_health":1,"nfpa_fire":0,"nfpa_reactivity":0,"signal_word":"Warning","value_text":"Crystalline silica dust (respirable fraction) is IARC Group 1 carcinogen"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

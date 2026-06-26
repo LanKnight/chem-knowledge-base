@@ -1,0 +1,8 @@
+{
+  "substance": {"cas_number":"1344-28-1","name_cn":"氧化铝","name_en":"Aluminum oxide","molecular_formula":"Al2O3","molecular_weight":101.96,"smiles":"[O-2].[O-2].[O-2].[Al+3].[Al+3]","substance_type":"inorganic","chemical_class":"amphoteric_oxide","state_at_25c":"solid"},
+  "properties":[{"property_type":"melting_point","value":2072,"unit":"°C"},{"property_type":"boiling_point","value":2980,"unit":"°C"},{"property_type":"density","value":3.97,"unit":"g/cm3","value_text":"α-Al2O3 (corundum)"},{"property_type":"solubility","value_text":"Insoluble in water"}],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":-1675.7,"unit":"kJ/mol","phase":"s","standard_state":true}],
+  "processes":[{"process_name_cn":"拜耳法","process_name_en":"Bayer Process","description_cn":"氧化铝主要通过拜耳法从铝土矿中提取：用热NaOH溶液溶解铝土矿中的Al(OH)3/AlOOH形成Na[Al(OH)4]溶液，分离不溶杂质（赤泥）后冷却析出Al(OH)3沉淀，煅烧得Al2O3（~1000°C）。γ-Al2O3是最重要的工业催化剂载体——具有高比表面积（100-300 m²/g）、优异的热稳定性和可调酸碱性。广泛用作加氢处理催化剂（Co-Mo/Al2O3、Ni-Mo/Al2O3）、合成氨催化剂促进剂和汽车尾气三效催化剂载体。α-Al2O3（刚玉）用于磨料和耐火材料。","source":"web_search"}],
+  "safety":{"nfpa_health":1,"nfpa_fire":0,"nfpa_reactivity":0},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

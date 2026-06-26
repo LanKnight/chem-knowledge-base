@@ -1,0 +1,8 @@
+{
+  "substance": {"cas_number":"12167-74-7","name_cn":"羟基磷灰石","name_en":"Hydroxyapatite","molecular_formula":"Ca5(PO4)3(OH)","molecular_weight":502.31,"smiles":null,"substance_type":"inorganic","chemical_class":"phosphate_mineral","state_at_25c":"solid"},
+  "properties":[{"property_type":"decomposition_temperature","value":1100,"unit":"°C","value_text":"Decomposes"},{"property_type":"density","value":3.076,"unit":"g/cm3"},{"property_type":"solubility","value_text":"Practically insoluble in water (Ksp ~10⁻¹¹⁷); soluble in acids"}],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":-6700,"unit":"kJ/mol","value_text":"For Ca5(PO4)3(OH) formula unit; -13399 for full unit cell Ca10(PO4)6(OH)2","phase":"s"}],
+  "processes":[{"process_name_cn":"沉淀法+天然提取","process_name_en":"Precipitation + Natural Extraction","description_cn":"羟基磷灰石（HAP）可由Ca(OH)2或Ca(NO3)2与(NH4)2HPO4在碱性条件下沉淀合成：5Ca(OH)2+3H3PO4→Ca5(PO4)3(OH)+9H2O。HAP是人体骨骼和牙釉质的主要无机成分（~70%骨骼，~97%牙釉质），具有优异的生物相容性和骨传导性。广泛用于骨移植替代材料、牙科种植体涂层、药物缓释载体和重金属污染土壤修复。工业上也用作磷肥原料（磷矿-氟磷灰石与HAP结构类似）和多相催化剂载体。","source":"web_search"}],
+  "safety":{"signal_word":"None"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.80,"conflicts":[]}
+}

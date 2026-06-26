@@ -1,0 +1,9 @@
+{
+  "substance": {"cas_number":"9005-25-8","name_cn":"淀粉","name_en":"Starch","molecular_formula":"(C6H10O5)n","molecular_weight":null,"smiles":null,"substance_type":"organic","chemical_class":"polysaccharide","state_at_25c":"solid"},
+  "names":[{"name":"Amylum","language":"en","name_type":"systematic"}],
+  "properties":[{"property_type":"decomposition_temperature","value":256,"unit":"°C","value_text":"No sharp melting point"},{"property_type":"density","value":1.5,"unit":"g/cm3","condition_temp":20},{"property_type":"solubility","value_text":"Insoluble in cold water; gelatinizes in hot water; insoluble in alcohol"},{"property_type":"autoignition_temperature","value":410,"unit":"°C","value_text":"Dust explosion hazard"}],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":-960,"unit":"kJ/mol","value_text":"Per C6H10O5 repeating unit (approximate)","phase":"s"}],
+  "processes":[{"process_name_cn":"湿磨法提取","process_name_en":"Wet-Milling Extraction","description_cn":"淀粉从玉米、小麦、马铃薯、木薯等中通过湿磨法提取：浸泡→湿磨→筛分→离心→洗涤→干燥。淀粉由直链淀粉（线性螺旋，20-25%）和支链淀粉（分支结构，75-80%）组成。广泛用于食品增稠稳定剂、果葡糖浆生产（酶解制葡萄糖→异构化）、造纸（最大非食品用途）、瓦楞纸板胶粘剂、纺织上浆、生物降解塑料、生物燃料发酵及药物辅料。淀粉粉尘在空气中可形成爆炸性混合物（TLV 10 mg/m³）。","source":"web_search"}],
+  "safety":{"nfpa_health":0,"nfpa_fire":1,"nfpa_reactivity":0,"signal_word":"Warning","value_text":"Combustible dust — finely dispersed particles form explosive mixtures with air; GRAS by FDA"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.80,"conflicts":[]}
+}

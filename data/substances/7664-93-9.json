@@ -1,0 +1,98 @@
+{
+  "substance": {
+    "cas_number": "7664-93-9",
+    "name_cn": "硫酸",
+    "name_en": "Sulfuric acid",
+    "molecular_formula": "H2SO4",
+    "molecular_weight": 98.079,
+    "smiles": "OS(=O)(=O)O",
+    "inchi": null,
+    "inchikey": null,
+    "iupac_name_cn": "硫酸",
+    "iupac_name_en": "Sulfuric acid",
+    "substance_type": "inorganic",
+    "chemical_class": "acid",
+    "state_at_25c": "liquid",
+    "exact_mass": 97.9674,
+    "monoisotopic_mass": 97.9674,
+    "charge": 0,
+    "complexity": 81.3
+  },
+  "names": [
+    {"name": "Oil of vitriol", "language": "en", "name_type": "trade"},
+    {"name": "Battery acid", "language": "en", "name_type": "common"},
+    {"name": "Dihydrogen sulfate", "language": "en", "name_type": "systematic"},
+    {"name": "Sulphuric acid", "language": "en", "name_type": "synonym"},
+    {"name": "发烟硫酸", "language": "zh", "name_type": "synonym"},
+    {"name": "砒油", "language": "zh", "name_type": "historical"}
+  ],
+  "properties": [
+    {"property_type": "boiling_point", "value": 337, "unit": "°C", "source": "web_search"},
+    {"property_type": "melting_point", "value": 10.31, "unit": "°C", "source": "web_search"},
+    {"property_type": "density", "value": 1.8302, "unit": "g/cm3", "condition_temp": 25, "source": "web_search"},
+    {"property_type": "density", "value": 1.841, "unit": "g/cm3", "value_text": "96-98% commercial grade", "condition_temp": 25, "source": "web_search"},
+    {"property_type": "vapor_pressure", "value": 0.001, "unit": "mmHg", "condition_temp": 20, "source": "web_search"},
+    {"property_type": "viscosity", "value": 26.7, "unit": "cP", "condition_temp": 20, "source": "web_search"},
+    {"property_type": "refractive_index", "value": 1.429, "unit": "", "value_text": "98% acid", "condition_temp": 20, "source": "web_search"},
+    {"property_type": "solubility", "value_text": "Fully miscible with water (highly exothermic)", "unit": "", "source": "web_search"},
+    {"property_type": "pKa1", "value": -2.8, "unit": "", "source": "web_search"},
+    {"property_type": "pKa2", "value": 1.99, "unit": "", "source": "web_search"},
+    {"property_type": "decomposition_temperature", "value": 300, "unit": "°C", "value_text": "Decomposes to SO3 + H2O above ~300°C", "source": "web_search"}
+  ],
+  "thermodynamics": [
+    {"data_type": "enthalpy_of_formation", "value": -814.0, "unit": "kJ/mol", "phase": "l", "standard_state": true, "source": "web_search"},
+    {"data_type": "enthalpy_of_formation", "value": -735.13, "unit": "kJ/mol", "phase": "g", "standard_state": true, "source": "nist"},
+    {"data_type": "entropy", "value": 157, "unit": "J/(mol·K)", "phase": "l", "standard_state": true, "source": "web_search"},
+    {"data_type": "entropy", "value": 298.78, "unit": "J/(mol·K)", "phase": "g", "standard_state": true, "source": "nist"},
+    {"data_type": "heat_capacity", "value": 138.9, "unit": "J/(mol·K)", "phase": "l", "source": "web_search"},
+    {"data_type": "enthalpy_of_vaporization", "value": 59.5, "unit": "kJ/mol", "source": "web_search"},
+    {"data_type": "enthalpy_of_dilution", "value": -85.4, "unit": "kJ/mol", "source": "web_search"}
+  ],
+  "reactions": [
+    {"equation": "H2SO4 + 2H2O → 2H3O+ + SO4²⁻", "reaction_type": "dissociation", "source": "web_search"},
+    {"equation": "H2SO4 + 2NaOH → Na2SO4 + 2H2O", "reaction_type": "neutralization", "source": "web_search"},
+    {"equation": "H2SO4 + NaCl → NaHSO4 + HCl↑", "reaction_type": "metathesis", "source": "web_search"},
+    {"equation": "H2SO4 → SO3 + H2O (above 300°C)", "reaction_type": "decomposition", "source": "web_search"}
+  ],
+  "processes": [
+    {
+      "process_name_cn": "接触法制硫酸",
+      "process_name_en": "Contact Process",
+      "description_cn": "接触法是目前最主要的硫酸工业生产方法。以硫磺、硫铁矿或含硫矿石为原料，经三步制得硫酸：1) 造气——硫磺或硫铁矿在过量空气中燃烧生成SO₂；2) 催化氧化——SO₂在V₂O₅催化剂作用下氧化为SO₃（400-600°C，常压）；3) 吸收——SO₃用98.3%浓硫酸吸收生成发烟硫酸，再稀释为所需浓度。核心反应：S + O₂ → SO₂，2SO₂ + O₂ ⇌ 2SO₃（ΔH=-196.6kJ/mol），SO₃ + H₂SO₄ → H₂S₂O₇（发烟硫酸）。",
+      "description_en": "The Contact Process is the dominant industrial method. Sulfur is burned to produce SO₂, then catalytically oxidized to SO₃ over V₂O₅ catalyst at 400-600°C, and absorbed in 98.3% H₂SO₄ to produce oleum.",
+      "temperature_min": 400,
+      "temperature_max": 600,
+      "temperature_opt": 450,
+      "pressure_opt": 100,
+      "catalyst": "V₂O₅ (五氧化二钒)",
+      "catalyst_detail": "V₂O₅ on silica support; alkali metal promoters (K₂SO₄, Na₂SO₄) enhance activity. The catalyst operates via a redox cycle: V⁵⁺ → V⁴⁺ → V⁵⁺.",
+      "yield_pct": 99,
+      "conversion_rate_pct": 99.5,
+      "raw_materials": ["Sulfur", "Air (O2)", "Water", "98.3% H2SO4 (absorbent)"],
+      "byproducts": ["Steam (heat recovery)", "Trace SO₂ (scrubbed)"],
+      "industrial_significance": "硫酸是产量最大的化工产品之一，全球年产量约2.6亿吨，被称为'化学工业之母'。主要用于磷肥生产（~60%）、金属冶炼、石油精炼、化学合成等。",
+      "source": "web_search"
+    }
+  ],
+  "safety": {
+    "ghs_classifications": [
+      {"code": "GHS05", "label": "腐蚀性", "pictogram": "Corrosion"},
+      {"code": "GHS07", "label": "健康危害", "pictogram": "Exclamation mark"}
+    ],
+    "signal_word": "Danger",
+    "h_codes": ["H314: Causes severe skin burns and eye damage"],
+    "p_codes": ["P280: Wear protective gloves/protective clothing/eye protection/face protection", "P305+P351+P338: IF IN EYES: Rinse cautiously with water for several minutes", "P310: Immediately call a POISON CENTER or doctor"],
+    "nfpa_health": 3,
+    "nfpa_fire": 0,
+    "nfpa_reactivity": 2,
+    "nfpa_special": "W (reacts violently with water)",
+    "storage_condition": "Store in tightly closed, corrosion-resistant containers. Keep away from water, bases, organic materials, metals. Store in cool, well-ventilated area.",
+    "un_number": "1830",
+    "packing_group": "II"
+  },
+  "validation": {
+    "sources_used": ["web_search"],
+    "overall_confidence": 0.85,
+    "conflicts": []
+  }
+}

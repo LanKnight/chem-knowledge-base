@@ -1,0 +1,15 @@
+{
+  "substance": {"cas_number":"67-64-1","name_cn":"丙酮","name_en":"Acetone","molecular_formula":"C3H6O","molecular_weight":58.08,"smiles":"CC(=O)C","substance_type":"organic","chemical_class":"ketone","state_at_25c":"liquid"},
+  "properties":[
+    {"property_type":"boiling_point","value":56.1,"unit":"°C"},{"property_type":"melting_point","value":-94.9,"unit":"°C"},
+    {"property_type":"density","value":0.7845,"unit":"g/cm3","condition_temp":25},
+    {"property_type":"vapor_pressure","value":30.6,"unit":"kPa","condition_temp":25},
+    {"property_type":"solubility","value_text":"Miscible with water"},{"property_type":"flash_point","value":-20,"unit":"°C"},
+    {"property_type":"autoignition_temperature","value":465,"unit":"°C"},
+    {"property_type":"explosion_limits","value_min":2.5,"value_max":12.8,"unit":"% in air"}
+  ],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":-248.4,"unit":"kJ/mol","phase":"l","standard_state":true}],
+  "processes":[{"process_name_cn":"异丙苯法（联产苯酚）","process_name_en":"Cumene Process (co-product with phenol)","description_cn":"丙酮主要由异丙苯法联产制得：异丙苯经空气氧化生成过氧化氢异丙苯，再经酸催化分解为苯酚和丙酮（每吨苯酚联产~0.62吨丙酮）。全球年产量约670万吨。丙酮是重要的工业溶剂（~33%，用于脂肪、油类、树脂、涂料、指甲油去除剂），也是甲基丙烯酸甲酯（MMA→有机玻璃/Plexiglas，~25%）和双酚A（BPA→聚碳酸酯，~20%）的原料。实验室常用溶剂和清洗剂。","source":"web_search"}],
+  "safety":{"ghs_classifications":[{"code":"GHS02","label":"易燃"},{"code":"GHS07","label":"健康危害"}],"signal_word":"Danger","h_codes":["H225","H319","H336"],"nfpa_health":1,"nfpa_fire":3,"nfpa_reactivity":0,"un_number":"1090","ld50_oral":5800},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

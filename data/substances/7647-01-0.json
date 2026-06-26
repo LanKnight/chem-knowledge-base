@@ -1,0 +1,83 @@
+{
+  "substance": {
+    "cas_number": "7647-01-0",
+    "name_cn": "盐酸",
+    "name_en": "Hydrochloric acid",
+    "molecular_formula": "HCl",
+    "molecular_weight": 36.46,
+    "smiles": "Cl",
+    "inchi": null,
+    "inchikey": null,
+    "iupac_name_cn": "氯化氢",
+    "iupac_name_en": "Hydrogen chloride",
+    "substance_type": "inorganic",
+    "chemical_class": "acid",
+    "state_at_25c": "gas"
+  },
+  "names": [
+    {"name": "Hydrogen chloride", "language": "en", "name_type": "systematic"},
+    {"name": "Muriatic acid", "language": "en", "name_type": "trade"},
+    {"name": "Spirits of salt", "language": "en", "name_type": "historical"},
+    {"name": "Chlorohydric acid", "language": "en", "name_type": "systematic"},
+    {"name": "氯化氢", "language": "zh", "name_type": "systematic"},
+    {"name": "氢氯酸", "language": "zh", "name_type": "systematic"}
+  ],
+  "properties": [
+    {"property_type": "boiling_point", "value": -85.1, "unit": "°C", "value_text": "anhydrous HCl gas; azeotrope ~20.2% HCl boils at ~109°C", "source": "web_search"},
+    {"property_type": "melting_point", "value": -114.2, "unit": "°C", "source": "web_search"},
+    {"property_type": "density", "value": 0.001477, "unit": "g/cm3", "value_text": "gas at 25°C", "source": "web_search"},
+    {"property_type": "density", "value": 1.18, "unit": "g/cm3", "value_text": "37% aqueous solution at 20°C", "source": "web_search"},
+    {"property_type": "vapor_pressure", "value": 4050, "unit": "kPa", "value_text": "at 25°C (gas)", "source": "web_search"},
+    {"property_type": "solubility", "value": 82.3, "unit": "g/100g water", "condition_temp": 0, "value_text": "Completely miscible", "source": "web_search"},
+    {"property_type": "pKa", "value": -7, "unit": "", "value_text": "Strong acid; essentially completely dissociates in water", "source": "web_search"}
+  ],
+  "thermodynamics": [
+    {"data_type": "enthalpy_of_formation", "value": -92.3, "unit": "kJ/mol", "phase": "g", "standard_state": true, "source": "web_search"},
+    {"data_type": "entropy", "value": 186.9, "unit": "J/(mol·K)", "phase": "g", "standard_state": true, "source": "web_search"}
+  ],
+  "reactions": [
+    {"equation": "HCl + H2O → H3O+ + Cl⁻", "reaction_type": "dissociation", "source": "web_search"},
+    {"equation": "HCl + NaOH → NaCl + H2O", "reaction_type": "neutralization", "source": "web_search"},
+    {"equation": "HCl + NH3 → NH4Cl", "reaction_type": "acid-base", "source": "web_search"},
+    {"equation": "2HCl + Zn → ZnCl2 + H2↑", "reaction_type": "metal_dissolution", "source": "web_search"},
+    {"equation": "HNO3 + 3HCl → NOCl + Cl2 + 2H2O", "reaction_type": "aqua_regia", "value_text": "Aqua regia formation, ratio 1:3 HNO3:HCl", "source": "web_search"}
+  ],
+  "processes": [
+    {
+      "process_name_cn": "合成法（氢气+氯气燃烧法）",
+      "process_name_en": "Synthesis from H₂ + Cl₂ combustion",
+      "description_cn": "工业盐酸主要通过氢气和氯气直接化合燃烧制得：H₂ + Cl₂ → 2HCl。反应为高度放热链式反应，在石墨或石英燃烧炉中进行。生成的HCl气体经冷却后用水吸收，制得30-37%商品盐酸。氯气主要来自氯碱工业的副产物，氢气同样来自氯碱过程或蒸汽重整。此外，有机氯化反应（如PVC、MDI/TDI生产）副产的HCl也是重要来源。高纯盐酸（电子级）需经等温扩散或亚沸蒸馏进一步提纯。",
+      "description_en": "HCl gas produced by direct combustion of H₂ and Cl₂ in graphite or quartz burners, then absorbed in water to make 30-37% commercial acid. Also recovered as byproduct from organic chlorination processes.",
+      "temperature_min": 2000,
+      "temperature_max": 2500,
+      "catalyst": "None (free radical chain reaction)",
+      "yield_pct": 99,
+      "raw_materials": ["Hydrogen (H2)", "Chlorine (Cl2)", "Water (H2O)"],
+      "byproducts": ["None"],
+      "industrial_significance": "盐酸是重要的工业酸，广泛用于金属酸洗除锈、化学品生产（氯化物）、离子交换树脂再生、石油井酸化、食品加工（淀粉水解）、制药。全球产量巨大，但确切数据难以统计（大量作为副产物产生和消耗）。",
+      "source": "web_search"
+    }
+  ],
+  "safety": {
+    "ghs_classifications": [
+      {"code": "GHS05", "label": "腐蚀性", "pictogram": "Corrosion"},
+      {"code": "GHS07", "label": "健康危害", "pictogram": "Exclamation mark"}
+    ],
+    "signal_word": "Danger",
+    "h_codes": ["H290: May be corrosive to metals", "H314: Causes severe skin burns and eye damage", "H335: May cause respiratory irritation"],
+    "p_codes": ["P260: Do not breathe fumes", "P280: Wear protective gloves/clothing/eye protection", "P303+P361+P353: IF ON SKIN (or hair): Remove contaminated clothing, rinse skin with water", "P305+P351+P338: IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses if present", "P310: Immediately call a POISON CENTER or doctor"],
+    "nfpa_health": 3,
+    "nfpa_fire": 0,
+    "nfpa_reactivity": 1,
+    "ld50_oral": 900,
+    "un_number": "1789",
+    "packing_group": "II",
+    "storage_condition": "Store in corrosion-resistant containers (PVC, HDPE, glass, PTFE). Keep away from bases, oxidizers, metals. Ventilate storage area - HCl fumes are corrosive.",
+    "exposure_limits": "OSHA PEL: 5 ppm (7 mg/m³) ceiling; NIOSH IDLH: 50 ppm"
+  },
+  "validation": {
+    "sources_used": ["web_search"],
+    "overall_confidence": 0.85,
+    "conflicts": []
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "substance": {
+    "cas_number": "7664-41-7",
+    "name_cn": "氨",
+    "name_en": "Ammonia",
+    "molecular_formula": "NH3",
+    "molecular_weight": 17.031,
+    "smiles": "N",
+    "inchi": null,
+    "inchikey": null,
+    "iupac_name_cn": "氮烷",
+    "iupac_name_en": "Azane",
+    "substance_type": "inorganic",
+    "chemical_class": "base",
+    "state_at_25c": "gas"
+  },
+  "names": [
+    {"name": "Ammonia gas", "language": "en", "name_type": "common"},
+    {"name": "Anhydrous ammonia", "language": "en", "name_type": "technical"},
+    {"name": "Liquid ammonia", "language": "en", "name_type": "technical"},
+    {"name": "氨气", "language": "zh", "name_type": "common"},
+    {"name": "液氨", "language": "zh", "name_type": "technical"},
+    {"name": "阿摩尼亚", "language": "zh", "name_type": "transliteration"}
+  ],
+  "properties": [
+    {"property_type": "boiling_point", "value": -33.34, "unit": "°C", "source": "web_search"},
+    {"property_type": "melting_point", "value": -77.73, "unit": "°C", "source": "web_search"},
+    {"property_type": "density", "value": 0.6819, "unit": "g/cm3", "value_text": "Liquid at boiling point", "source": "web_search"},
+    {"property_type": "density", "value": 0.000769, "unit": "g/cm3", "value_text": "Gas at STP", "source": "web_search"},
+    {"property_type": "vapor_pressure", "value": 857.3, "unit": "kPa", "condition_temp": 25, "source": "web_search"},
+    {"property_type": "refractive_index", "value": 1.3327, "unit": "", "source": "web_search"},
+    {"property_type": "solubility", "value": 47, "unit": "g/100g water", "condition_temp": 0, "value_text": "Highly soluble; fully miscible", "source": "web_search"},
+    {"property_type": "pKa", "value": 9.25, "unit": "", "value_text": "of NH4+ conjugate acid", "source": "web_search"},
+    {"property_type": "pKb", "value": 4.75, "unit": "", "source": "web_search"},
+    {"property_type": "flash_point", "value": -54, "unit": "°C", "source": "web_search"},
+    {"property_type": "autoignition_temperature", "value": 651, "unit": "°C", "source": "web_search"},
+    {"property_type": "explosion_limits", "value_min": 15, "value_max": 28, "unit": "% by volume in air", "source": "web_search"},
+    {"property_type": "critical_temperature", "value": 132.5, "unit": "°C", "source": "web_search"},
+    {"property_type": "critical_pressure", "value": 11.13, "unit": "MPa", "source": "web_search"}
+  ],
+  "thermodynamics": [
+    {"data_type": "enthalpy_of_formation", "value": -45.9, "unit": "kJ/mol", "phase": "g", "standard_state": true, "source": "web_search"},
+    {"data_type": "entropy", "value": 192.67, "unit": "J/(mol·K)", "phase": "g", "standard_state": true, "source": "web_search"},
+    {"data_type": "gibbs_free_energy", "value": -16.4, "unit": "kJ/mol", "phase": "g", "standard_state": true, "source": "web_search"},
+    {"data_type": "heat_capacity", "value": 35.96, "unit": "J/(mol·K)", "phase": "g", "condition_temp": 25, "source": "web_search"},
+    {"data_type": "enthalpy_of_vaporization", "value": 23.3, "unit": "kJ/mol", "source": "web_search"},
+    {"data_type": "enthalpy_of_fusion", "value": 5.8, "unit": "kJ/mol", "source": "web_search"},
+    {"data_type": "enthalpy_of_combustion", "value": -316.25, "unit": "kJ/mol", "source": "web_search"}
+  ],
+  "reactions": [
+    {"equation": "N2(g) + 3H2(g) ⇌ 2NH3(g)", "delta_h": -92.4, "delta_h_unit": "kJ/mol", "reaction_type": "synthesis", "reversible": true, "name_cn": "哈柏法合成氨", "source": "web_search"},
+    {"equation": "NH3 + H2O ⇌ NH4+ + OH⁻", "reaction_type": "dissociation", "reversible": true, "source": "web_search"},
+    {"equation": "NH3 + HCl → NH4Cl", "reaction_type": "acid-base", "source": "web_search"},
+    {"equation": "4NH3 + 5O2 → 4NO + 6H2O", "reaction_type": "catalytic_oxidation", "name_cn": "奥斯特瓦尔德法（制硝酸）", "source": "web_search"}
+  ],
+  "processes": [
+    {
+      "process_name_cn": "哈柏-博斯法合成氨",
+      "process_name_en": "Haber-Bosch Process",
+      "description_cn": "哈柏-博斯法是工业合成氨的核心工艺，由Fritz Haber于1909年发明，Carl Bosch于1913年实现工业化。以氮气（来自空气）和氢气（来自天然气蒸汽重整）为原料，在铁基催化剂作用下高温高压合成氨。工艺流程包括：1) 原料气制备——天然气脱硫后蒸汽重整制氢（CH₄ + H₂O → CO + 3H₂），二次重整引入空气提供N₂并调整H₂:N₂=3:1；2) 压缩至150-250 bar；3) 合成——在含促进剂（Al₂O₃, K₂O, CaO）的铁触媒上，400-500°C下反应，单程转化率~15%；4) 冷却分离——氨液化分离，未反应气体循环回用，总转化率达~98%。",
+      "description_en": "The Haber-Bosch process synthesizes ammonia from N₂ and H₂ over promoted iron catalyst at 400-500°C and 150-250 bar. Per-pass conversion ~15%, overall ~98% with recycle. Feedstock H₂ from steam reforming of natural gas; N₂ from air.",
+      "temperature_min": 400,
+      "temperature_max": 500,
+      "temperature_opt": 450,
+      "pressure_min": 10000,
+      "pressure_max": 25000,
+      "pressure_opt": 20000,
+      "catalyst": "Fe/Al₂O₃/K₂O/CaO (promoted iron catalyst)",
+      "catalyst_detail": "活性组分为α-Fe（由Fe₃O₄原位还原得到），促进剂Al₂O₃维持多孔结构，K₂O提高铁表面电子密度促进N₂解离（速率决定步骤），CaO增强热稳定性。现代KAAP工艺使用钌基催化剂可在较低压力下运行。",
+      "yield_pct": 98,
+      "conversion_rate_pct": 15,
+      "selectivity_pct": 100,
+      "raw_materials": ["Natural gas (CH4)", "Air (N2 + O2)", "Steam (H2O)"],
+      "byproducts": ["CO2", "Purge gas (Ar, CH4)"],
+      "industrial_significance": "全球年产量约1.5-1.8亿吨，约80-85%用于化肥生产。哈柏-博斯法支撑了全球约40-50%人口的食物供应。占全球能源消耗~1-2%，天然气消耗~3-5%，CO₂排放~1.0-1.8%。",
+      "source": "web_search"
+    }
+  ],
+  "safety": {
+    "ghs_classifications": [
+      {"code": "GHS04", "label": "压缩气体"},
+      {"code": "GHS05", "label": "腐蚀性"},
+      {"code": "GHS06", "label": "毒性"},
+      {"code": "GHS09", "label": "环境危害"}
+    ],
+    "signal_word": "Danger",
+    "h_codes": ["H221: Flammable gas", "H314: Causes severe skin burns and eye damage", "H331: Toxic if inhaled", "H400: Very toxic to aquatic life"],
+    "p_codes": ["P260: Do not breathe gas", "P280: Wear protective gloves/clothing/eye protection", "P273: Avoid release to the environment"],
+    "nfpa_health": 3,
+    "nfpa_fire": 1,
+    "nfpa_reactivity": 0,
+    "flash_point": -54,
+    "autoignition_temp": 651,
+    "explosion_limits": "15-28% in air",
+    "un_number": "1005",
+    "packing_group": "II"
+  },
+  "validation": {
+    "sources_used": ["web_search"],
+    "overall_confidence": 0.85,
+    "conflicts": []
+  }
+}

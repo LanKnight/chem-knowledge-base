@@ -1,0 +1,14 @@
+{
+  "substance": {"cas_number":"108-88-3","name_cn":"甲苯","name_en":"Toluene","molecular_formula":"C7H8","molecular_weight":92.14,"smiles":"Cc1ccccc1","substance_type":"organic","chemical_class":"aromatic_hydrocarbon","state_at_25c":"liquid"},
+  "properties":[
+    {"property_type":"boiling_point","value":110.6,"unit":"°C"},{"property_type":"melting_point","value":-95,"unit":"°C"},
+    {"property_type":"density","value":0.867,"unit":"g/cm3","condition_temp":20},
+    {"property_type":"vapor_pressure","value":3.87,"unit":"kPa","condition_temp":20},
+    {"property_type":"solubility","value":0.5,"unit":"g/L","condition_temp":20},
+    {"property_type":"flash_point","value":4,"unit":"°C"}
+  ],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":12.0,"unit":"kJ/mol","phase":"l","standard_state":true}],
+  "processes":[{"process_name_cn":"催化重整","process_name_en":"Catalytic Reforming","description_cn":"甲苯主要来自石脑油催化重整（BTX芳烃流），经溶剂萃取和精馏从苯和二甲苯中分离。也来自蒸汽裂解副产的裂解汽油。主要用途：溶剂（涂料、油墨、胶粘剂）、汽油添加剂（辛烷值提升剂）、加氢脱烷基制苯及TDI（甲苯二异氰酸酯→聚氨酯）生产。","source":"web_search"}],
+  "safety":{"ghs_classifications":[{"code":"GHS02","label":"易燃"},{"code":"GHS07","label":"刺激性"},{"code":"GHS08","label":"健康危害"}],"signal_word":"Danger","h_codes":["H225","H304","H315","H336","H361d","H373"],"nfpa_health":2,"nfpa_fire":3,"nfpa_reactivity":0,"un_number":"1294"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

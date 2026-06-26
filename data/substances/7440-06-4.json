@@ -1,0 +1,8 @@
+{
+  "substance": {"cas_number":"7440-06-4","name_cn":"铂","name_en":"Platinum","molecular_formula":"Pt","molecular_weight":195.08,"smiles":"[Pt]","substance_type":"inorganic","chemical_class":"precious_metal","state_at_25c":"solid"},
+  "properties":[{"property_type":"melting_point","value":1768,"unit":"°C"},{"property_type":"boiling_point","value":3825,"unit":"°C"},{"property_type":"density","value":21.45,"unit":"g/cm3"}],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":0,"unit":"kJ/mol","phase":"s","standard_state":true}],
+  "processes":[{"process_name_cn":"铂族金属精炼","process_name_en":"PGM Refining","description_cn":"铂是珍贵的铂族金属，主要产自南非、俄罗斯。铂是最重要的工业催化金属之一：1) 硝酸工业——Pt-Rh合金网催化NH3氧化制NO（奥斯特瓦尔德法，~800-900°C）；2) 石油重整——Pt/Al2O3是催化重整的核心催化剂（石脑油→高辛烷值汽油+BTX芳烃）；3) 汽车尾气三效催化转化器（Pt-Pd-Rh协同）；4) 燃料电池电催化剂（Pt/C催化ORR和HOR）；5) 硅酮固化催化剂（Karstedt催化剂）。","source":"web_search"}],
+  "safety":{"nfpa_health":0,"nfpa_fire":0,"nfpa_reactivity":0,"signal_word":"None"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

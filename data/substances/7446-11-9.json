@@ -1,0 +1,9 @@
+{
+  "substance": {"cas_number":"7446-11-9","name_cn":"三氧化硫","name_en":"Sulfur trioxide","molecular_formula":"SO3","molecular_weight":80.06,"smiles":"O=S(=O)=O","substance_type":"inorganic","chemical_class":"acidic_oxide","state_at_25c":"solid","value_text":"γ-SO3 solid at 25°C; liquid above 16.9°C"},
+  "properties":[{"property_type":"melting_point","value":16.9,"unit":"°C","value_text":"γ-SO3"},{"property_type":"boiling_point","value":45,"unit":"°C"},{"property_type":"density","value":1.92,"unit":"g/cm3","value_text":"liquid"}],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":-397.77,"unit":"kJ/mol","phase":"g","standard_state":true}],
+  "reactions":[{"equation":"SO3 + H2SO4 → H2S2O7 (oleum)","reaction_type":"absorption","name_cn":"发烟硫酸生成"},{"equation":"SO3 + H2O → H2SO4","delta_h":-88,"delta_h_unit":"kJ/mol","reaction_type":"hydration","value_text":"Highly exothermic - forms acid mist if gas contacts water directly"}],
+  "processes":[{"process_name_cn":"SO2催化氧化","process_name_en":"SO2 Catalytic Oxidation","description_cn":"SO3由SO2在V2O5催化剂上于400-600°C下催化氧化制得（接触法制硫酸第二步）：2SO2+O2⇌2SO3（ΔH=-196.6 kJ/mol）。纯SO3在室温下为固体（γ-SO3），但在接触法中直接以气体形式用98.3%浓硫酸吸收生成发烟硫酸（H2S2O7），再稀释为所需浓度硫酸。直接用H2O吸收会导致剧烈放热形成硫酸气溶胶（酸雾）——这是工业化学的高频考点。","source":"web_search"}],
+  "safety":{"ghs_classifications":[{"code":"GHS05","label":"腐蚀性"},{"code":"GHS06","label":"毒性"}],"signal_word":"Danger","h_codes":["H314","H335"],"un_number":"1829"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

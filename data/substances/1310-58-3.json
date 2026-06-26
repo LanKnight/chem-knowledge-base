@@ -1,0 +1,8 @@
+{
+  "substance": {"cas_number":"1310-58-3","name_cn":"氢氧化钾","name_en":"Potassium hydroxide","molecular_formula":"KOH","molecular_weight":56.11,"smiles":"[OH-].[K+]","substance_type":"inorganic","chemical_class":"base","state_at_25c":"solid"},
+  "properties":[{"property_type":"melting_point","value":410,"unit":"°C"},{"property_type":"boiling_point","value":1327,"unit":"°C"},{"property_type":"density","value":2.044,"unit":"g/cm3"},{"property_type":"solubility","value":1100,"unit":"g/L","condition_temp":25,"value_text":"Highly soluble; dissolution is highly exothermic"}],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":-425.8,"unit":"kJ/mol","phase":"s","standard_state":true}],
+  "processes":[{"process_name_cn":"电解KCl溶液（类似氯碱法）","process_name_en":"Electrolysis of KCl","description_cn":"KOH由电解氯化钾溶液制得（类似NaOH的氯碱法）：2KCl+2H2O→2KOH+Cl2+H2。离子膜法使用全氟磺酸膜分隔，制得高纯KOH溶液，蒸发浓缩至固碱（片状、粒状）。因KOH比NaOH更贵，主要用于需要钾离子的特殊应用：液体肥皂（钾皂比钠皂更软更易溶）、碱性电池（KOH电解液比NaOH导电性更好）、CO₂吸收剂（航天/潜艇生命维持系统）、半导体蚀刻（KOH各向异性硅蚀刻）和生物柴油催化剂（KOH催化酯交换反应）。KOH的碱性比NaOH更强，吸湿性更强（在空气中迅速潮解）。","source":"web_search"}],
+  "safety":{"ghs_classifications":[{"code":"GHS05","label":"腐蚀性"},{"code":"GHS07","label":"健康危害"}],"signal_word":"Danger","h_codes":["H290","H302","H314","H335"],"nfpa_health":3,"nfpa_fire":0,"nfpa_reactivity":2,"un_number":"1813"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

@@ -1,0 +1,8 @@
+{
+  "substance": {"cas_number":"115-07-1","name_cn":"丙烯","name_en":"Propylene","molecular_formula":"C3H6","molecular_weight":42.08,"smiles":"CC=C","substance_type":"organic","chemical_class":"alkene","state_at_25c":"gas"},
+  "properties":[{"property_type":"boiling_point","value":-47.6,"unit":"°C"},{"property_type":"melting_point","value":-185.2,"unit":"°C"},{"property_type":"density","value":0.00181,"unit":"g/cm3","value_text":"gas at 15°C"},{"property_type":"solubility","value":0.44,"unit":"g/L"},{"property_type":"flash_point","value":-107.8,"unit":"°C"},{"property_type":"autoignition_temperature","value":460,"unit":"°C"},{"property_type":"explosion_limits","value_min":2.4,"value_max":11.1,"unit":"% in air"}],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":20.4,"unit":"kJ/mol","phase":"g","standard_state":true}],
+  "processes":[{"process_name_cn":"蒸汽裂解+FCC+PDH","process_name_en":"Steam Cracking + FCC + PDH","description_cn":"丙烯来源：蒸汽裂解（~55-60%，与乙烯联产）、催化裂化FCC（~20-25%，炼厂）、丙烷脱氢PDH（~20%且快速增长，CATOFIN/OLEFLEX工艺，Pt/Cr催化剂）。全球产量>1亿吨/年。约70%用于聚丙烯（PP，第二大通用塑料），其余制丙烯腈（→腈纶/ABS/碳纤维）、环氧丙烷（→聚氨酯）、异丙苯（→苯酚+丙酮）、丙烯酸（→高吸水性树脂）和异丙醇。","source":"web_search"}],
+  "safety":{"ghs_classifications":[{"code":"GHS02","label":"易燃"},{"code":"GHS04","label":"压缩气体"}],"signal_word":"Danger","h_codes":["H220","H280"],"nfpa_health":1,"nfpa_fire":4,"nfpa_reactivity":1,"un_number":"1077"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

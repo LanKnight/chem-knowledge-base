@@ -1,0 +1,45 @@
+{
+  "substance": {
+    "cas_number": "1305-78-8", "name_cn": "氧化钙", "name_en": "Calcium oxide",
+    "molecular_formula": "CaO", "molecular_weight": 56.08,
+    "substance_type": "inorganic", "chemical_class": "basic_oxide", "state_at_25c": "solid"
+  },
+  "names": [
+    {"name": "Quicklime", "language": "en", "name_type": "common"},
+    {"name": "Burnt lime", "language": "en", "name_type": "common"},
+    {"name": "生石灰", "language": "zh", "name_type": "common"}, {"name": "E529", "language": "en", "name_type": "food_additive"}
+  ],
+  "properties": [
+    {"property_type": "melting_point", "value": 2572, "unit": "°C", "source": "web_search"},
+    {"property_type": "boiling_point", "value": 2850, "unit": "°C", "source": "web_search"},
+    {"property_type": "density", "value": 3.34, "unit": "g/cm3", "source": "web_search"},
+    {"property_type": "pKa", "value": 12.8, "unit": "", "source": "web_search"}
+  ],
+  "thermodynamics": [
+    {"data_type": "enthalpy_of_formation", "value": -635, "unit": "kJ/mol", "phase": "s", "standard_state": true, "source": "web_search"},
+    {"data_type": "entropy", "value": 38.0, "unit": "J/(mol·K)", "phase": "s", "standard_state": true, "source": "web_search"}
+  ],
+  "reactions": [
+    {"equation": "CaO + H2O → Ca(OH)2", "delta_h": -63.7, "delta_h_unit": "kJ/mol", "reaction_type": "slaking", "value_text": "Highly exothermic", "source": "web_search"},
+    {"equation": "CaO + 2HCl → CaCl2 + H2O", "reaction_type": "acid-base", "source": "web_search"},
+    {"equation": "CaO + SO2 → CaSO3", "reaction_type": "scrubbing", "source": "web_search"},
+    {"equation": "CaO + CO2 → CaCO3", "reaction_type": "carbonation", "source": "web_search"},
+    {"equation": "CaCO3 → CaO + CO2 (at >825°C)", "reaction_type": "calcination", "name_cn": "石灰石煅烧", "source": "web_search"}
+  ],
+  "processes": [{
+    "process_name_cn": "石灰石煅烧法",
+    "process_name_en": "Limestone Calcination",
+    "description_cn": "氧化钙由石灰石（CaCO₃）在石灰窑中高温煅烧制得：CaCO₃ → CaO + CO₂（温度>825-1000°C）。这是人类最古老的化学工艺之一。全球年产量约2.83亿吨，中国是最大生产国（~1.7亿吨/年）。氧化钙是重要的碱性氧化物，与水反应（'消化'）生成消石灰Ca(OH)₂并放出大量热。主要用途：钢铁冶炼助熔剂、建筑（砂石灰砖、灰泥、水泥）、玻璃制造、纸浆造纸、水处理（pH调节、软化）、烟气脱硫（SO₂去除率~98%）和化学工业（索尔维法制纯碱）。食品添加剂E529。",
+    "temperature_min": 825, "temperature_max": 1000, "temperature_opt": 900,
+    "raw_materials": ["Limestone (CaCO3)", "Fuel (coal/gas)"], "byproducts": ["CO2"],
+    "industrial_significance": "氧化钙是全球产量最大的化工产品之一，广泛用于钢铁、建筑、环保和水处理行业。",
+    "source": "web_search"
+  }],
+  "safety": {
+    "h_codes": ["H315: Causes skin irritation", "H318: Causes serious eye damage", "H335: May cause respiratory irritation"],
+    "signal_word": "Danger",
+    "nfpa_health": 3, "nfpa_fire": 0, "nfpa_reactivity": 1,
+    "storage_condition": "Store tightly closed and dry — absorbs moisture and CO2 from air ('air-slaking'), reverting to CaCO3."
+  },
+  "validation": {"sources_used": ["web_search"], "overall_confidence": 0.85, "conflicts": []}
+}

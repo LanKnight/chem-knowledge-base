@@ -1,0 +1,17 @@
+{
+  "substance": {"cas_number":"50-00-0","name_cn":"甲醛","name_en":"Formaldehyde","molecular_formula":"CH2O","molecular_weight":30.03,"smiles":"C=O","substance_type":"organic","chemical_class":"aldehyde","state_at_25c":"gas"},
+  "names":[{"name":"Formalin","language":"en","name_type":"common","value_text":"37% aqueous solution"},{"name":"Methanal","language":"en","name_type":"systematic"},{"name":"福尔马林","language":"zh","name_type":"common"}],
+  "properties":[
+    {"property_type":"boiling_point","value":-19.5,"unit":"°C","value_text":"pure gas; ~97°C for 37% formalin"},
+    {"property_type":"melting_point","value":-92,"unit":"°C"},
+    {"property_type":"density","value":0.000815,"unit":"g/cm3","value_text":"gas; 1.083 g/mL for 37% formalin"},
+    {"property_type":"solubility","value":400,"unit":"g/L","condition_temp":20},
+    {"property_type":"flash_point","value":64,"unit":"°C"},
+    {"property_type":"autoignition_temperature","value":430,"unit":"°C"},
+    {"property_type":"explosion_limits","value_min":7,"value_max":73,"unit":"% in air"}
+  ],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":-109.2,"unit":"kJ/mol","phase":"g","standard_state":true}],
+  "processes":[{"process_name_cn":"甲醇氧化法（Formox工艺）","process_name_en":"Formox Process","description_cn":"甲醛由甲醇催化氧化制得：2CH3OH + O2 → 2CH2O + 2H2O。Formox法使用铁钼氧化物催化剂（250-400°C），银催化剂法则在~650°C下运行。全球年产量约2600万吨。甲醛>50%用于工业树脂（脲醛树脂UF、酚醛树脂PF、三聚氰胺甲醛树脂MF），其余用于1,4-丁二醇、MDI、季戊四醇等化学品合成。福尔马林（37%水溶液）用作消毒剂和防腐液。","temperature_min":250,"temperature_max":400,"catalyst":"Fe2O3/MoO3 (Formox) 或 Ag","raw_materials":["Methanol","Air"],"industrial_significance":"甲醛是产量最大的醛类化合物，是木材胶粘剂和工程塑料产业链的关键中间体","source":"web_search"}],
+  "safety":{"ghs_classifications":[{"code":"GHS05","label":"腐蚀性"},{"code":"GHS06","label":"毒性"},{"code":"GHS08","label":"健康危害"}],"signal_word":"Danger","h_codes":["H301","H311","H314","H317","H331","H335","H341","H350","H370"],"nfpa_health":3,"nfpa_fire":4,"nfpa_reactivity":0,"un_number":"2209","exposure_limits":"OSHA PEL: 0.75 ppm TWA; IARC Group 1 carcinogen"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

@@ -1,0 +1,80 @@
+{
+  "substance": {
+    "cas_number": "7664-38-2",
+    "name_cn": "磷酸",
+    "name_en": "Phosphoric acid",
+    "molecular_formula": "H3PO4",
+    "molecular_weight": 97.994,
+    "smiles": "OP(=O)(O)O",
+    "substance_type": "inorganic",
+    "chemical_class": "acid",
+    "state_at_25c": "solid"
+  },
+  "names": [
+    {"name": "Orthophosphoric acid", "language": "en", "name_type": "systematic"},
+    {"name": "Phosphoric(V) acid", "language": "en", "name_type": "systematic"},
+    {"name": "正磷酸", "language": "zh", "name_type": "systematic"},
+    {"name": "E338", "language": "en", "name_type": "food_additive"}
+  ],
+  "properties": [
+    {"property_type": "melting_point", "value": 42.35, "unit": "°C", "value_text": "anhydrous", "source": "web_search"},
+    {"property_type": "boiling_point", "value": 158, "unit": "°C", "value_text": "decomposition; dehydrates at 213°C", "source": "web_search"},
+    {"property_type": "density", "value": 1.834, "unit": "g/cm3", "value_text": "anhydrous solid", "condition_temp": 25, "source": "web_search"},
+    {"property_type": "density", "value": 1.6845, "unit": "g/cm3", "value_text": "85% aqueous solution", "condition_temp": 25, "source": "web_search"},
+    {"property_type": "vapor_pressure", "value": 0.004, "unit": "kPa", "condition_temp": 20, "source": "web_search"},
+    {"property_type": "viscosity", "value": 147, "unit": "cP", "value_text": "100%", "source": "web_search"},
+    {"property_type": "solubility", "value": 548, "unit": "g/100mL", "condition_temp": 20, "value_text": "Miscible in all proportions", "source": "web_search"},
+    {"property_type": "pKa1", "value": 2.15, "unit": "", "source": "web_search"},
+    {"property_type": "pKa2", "value": 7.20, "unit": "", "source": "web_search"},
+    {"property_type": "pKa3", "value": 12.32, "unit": "", "source": "web_search"}
+  ],
+  "thermodynamics": [
+    {"data_type": "enthalpy_of_formation", "value": -1284.38, "unit": "kJ/mol", "phase": "s", "standard_state": true, "source": "nist"},
+    {"data_type": "enthalpy_of_formation", "value": -1271.66, "unit": "kJ/mol", "phase": "l", "source": "nist"},
+    {"data_type": "entropy", "value": 110.54, "unit": "J/(mol·K)", "phase": "s", "standard_state": true, "source": "nist"},
+    {"data_type": "entropy", "value": 150.77, "unit": "J/(mol·K)", "phase": "l", "source": "nist"},
+    {"data_type": "heat_capacity", "value": 145, "unit": "J/(mol·K)", "phase": "l", "source": "nist"},
+    {"data_type": "enthalpy_of_fusion", "value": 10.6, "unit": "kJ/mol", "source": "web_search"}
+  ],
+  "reactions": [
+    {"equation": "H3PO4 ⇌ H+ + H2PO4⁻", "reaction_type": "dissociation_step1", "source": "web_search"},
+    {"equation": "H3PO4 + 3NaOH → Na3PO4 + 3H2O", "reaction_type": "neutralization", "source": "web_search"},
+    {"equation": "Ca5(PO4)3F + 5H2SO4 + 10H2O → 3H3PO4 + 5CaSO4·2H2O + HF", "reaction_type": "wet_process_production", "source": "web_search"}
+  ],
+  "processes": [
+    {
+      "process_name_cn": "湿法磷酸",
+      "process_name_en": "Wet Process",
+      "description_cn": "湿法磷酸占全球产量约95%。用硫酸分解磷矿（氟磷灰石），反应：Ca₅(PO₄)₃F + 5H₂SO₄ + 10H₂O → 3H₃PO₄ + 5CaSO₄·2H₂O + HF。在70-80°C下反应4-8小时，得到23-33% P₂O₅（32-46% H₃PO₄）的稀磷酸，蒸发浓缩至54-62% P₂O₅商品级磷酸。副产磷石膏（CaSO₄），HF经洗涤回收。成本低但纯度较低，主要用于肥料生产。",
+      "temperature_min": 70,
+      "temperature_max": 80,
+      "yield_pct": 95,
+      "raw_materials": ["Phosphate rock (Ca5(PO4)3F)", "Sulfuric acid (H2SO4)", "Water"],
+      "byproducts": ["Phosphogypsum (CaSO4·2H2O)", "Hydrofluoric acid (HF)"],
+      "industrial_significance": "全球约95%磷酸由湿法生产，主要用于磷肥（磷酸铵、过磷酸钙）生产。",
+      "source": "web_search"
+    },
+    {
+      "process_name_cn": "热法磷酸",
+      "process_name_en": "Thermal Process",
+      "description_cn": "热法磷酸占全球产量约5%。分三步：1) 磷矿+焦炭+硅石在电炉中还原生成元素磷（P₄）；2) 磷在过量空气中燃烧生成P₄O₁₀；3) P₄O₁₀水合生成高浓度磷酸（~85%）。能耗高但纯度极高，用于食品级（E338）、医药、电子级磷酸。",
+      "temperature_opt": 1500,
+      "yield_pct": 99,
+      "raw_materials": ["Phosphate rock", "Coke", "Silica", "Air", "Water"],
+      "industrial_significance": "热法磷酸纯度高，用于食品添加剂（E338）、医药、半导体蚀刻和金属表面处理。",
+      "source": "web_search"
+    }
+  ],
+  "safety": {
+    "ghs_classifications": [{"code": "GHS05", "label": "腐蚀性"}],
+    "signal_word": "Danger",
+    "h_codes": ["H314: Causes severe skin burns and eye damage"],
+    "p_codes": ["P280: Wear protective gloves/clothing/eye protection", "P305+P351+P338: IF IN EYES: Rinse cautiously with water"],
+    "nfpa_health": 3,
+    "nfpa_fire": 0,
+    "nfpa_reactivity": 0,
+    "un_number": "1805",
+    "packing_group": "III"
+  },
+  "validation": {"sources_used": ["web_search"], "overall_confidence": 0.85, "conflicts": []}
+}

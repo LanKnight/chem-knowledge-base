@@ -1,0 +1,86 @@
+{
+  "substance": {
+    "cas_number": "1310-73-2",
+    "name_cn": "氢氧化钠",
+    "name_en": "Sodium hydroxide",
+    "molecular_formula": "NaOH",
+    "molecular_weight": 39.997,
+    "smiles": "[OH-].[Na+]",
+    "inchi": null,
+    "inchikey": null,
+    "iupac_name_cn": "氢氧化钠",
+    "iupac_name_en": "Sodium hydroxide",
+    "substance_type": "inorganic",
+    "chemical_class": "base",
+    "state_at_25c": "solid"
+  },
+  "names": [
+    {"name": "Caustic soda", "language": "en", "name_type": "trade"},
+    {"name": "Lye", "language": "en", "name_type": "common"},
+    {"name": "Soda lye", "language": "en", "name_type": "common"},
+    {"name": "烧碱", "language": "zh", "name_type": "common"},
+    {"name": "苛性钠", "language": "zh", "name_type": "common"},
+    {"name": "火碱", "language": "zh", "name_type": "common"}
+  ],
+  "properties": [
+    {"property_type": "boiling_point", "value": 1388, "unit": "°C", "source": "web_search"},
+    {"property_type": "melting_point", "value": 318, "unit": "°C", "source": "web_search"},
+    {"property_type": "density", "value": 2.13, "unit": "g/cm3", "condition_temp": 20, "source": "web_search"},
+    {"property_type": "vapor_pressure", "value": 2.4, "unit": "kPa", "condition_temp": 20, "source": "web_search"},
+    {"property_type": "refractive_index", "value": 1.433, "unit": "", "condition_temp": 320, "source": "web_search"},
+    {"property_type": "solubility", "value": 1110, "unit": "g/L", "condition_temp": 20, "value_text": "Highly soluble; dissolution is highly exothermic", "source": "web_search"},
+    {"property_type": "solubility", "value": 3370, "unit": "g/L", "condition_temp": 100, "source": "web_search"},
+    {"property_type": "pKa", "value": 15.7, "unit": "", "source": "web_search"}
+  ],
+  "thermodynamics": [
+    {"data_type": "enthalpy_of_formation", "value": -425.8, "unit": "kJ/mol", "phase": "s", "standard_state": true, "source": "web_search"},
+    {"data_type": "enthalpy_of_formation", "value": -191.0, "unit": "kJ/mol", "phase": "g", "source": "web_search"},
+    {"data_type": "gibbs_free_energy", "value": -379.7, "unit": "kJ/mol", "standard_state": true, "source": "web_search"},
+    {"data_type": "entropy", "value": 64.4, "unit": "J/(mol·K)", "standard_state": true, "source": "web_search"},
+    {"data_type": "heat_capacity", "value": 59.5, "unit": "J/(mol·K)", "source": "web_search"},
+    {"data_type": "enthalpy_of_dissolution", "value": -44.45, "unit": "kJ/mol", "source": "web_search"},
+    {"data_type": "enthalpy_of_fusion", "value": 6.77, "unit": "kJ/mol", "source": "web_search"},
+    {"data_type": "enthalpy_of_vaporization", "value": 175, "unit": "kJ/mol", "source": "web_search"}
+  ],
+  "reactions": [
+    {"equation": "NaOH + HCl → NaCl + H₂O", "reaction_type": "neutralization", "source": "web_search"},
+    {"equation": "2NaOH + CO₂ → Na₂CO₃ + H₂O", "reaction_type": "absorption", "source": "web_search"},
+    {"equation": "2NaOH + SO₂ → Na₂SO₃ + H₂O", "reaction_type": "scrubbing", "source": "web_search"},
+    {"equation": "2Al + 2NaOH + 6H₂O → 2Na[Al(OH)₄] + 3H₂↑", "reaction_type": "amphoteric_metal", "source": "web_search"}
+  ],
+  "processes": [
+    {
+      "process_name_cn": "氯碱法（离子膜法）",
+      "process_name_en": "Chloralkali Process (Membrane Cell)",
+      "description_cn": "氯碱法通过电解饱和食盐水同时生产氢氧化钠、氯气和氢气。总反应：2NaCl + 2H₂O → 2NaOH + Cl₂ + H₂。现代主流工艺为离子膜法：使用全氟离子交换膜（Nafion）分隔阴阳极室，Na⁺选择性透过膜与阴极OH⁻结合生成~32% NaOH，蒸发浓缩至50%商品液碱或进一步干燥制得固碱。离子膜法能耗最低（~2100-2500 kWh/t NaOH），产品纯度高（含盐<50ppm），无汞/石棉污染。",
+      "description_en": "Electrolysis of saturated brine using ion-exchange membrane technology. Na⁺ ions migrate through perfluorinated membrane to cathode compartment, forming high-purity 32% NaOH. Concentrated to 50% for commercial product.",
+      "temperature_opt": 85,
+      "catalyst": "Nafion perfluorinated ion-exchange membrane",
+      "yield_pct": 99,
+      "raw_materials": ["Sodium chloride (NaCl)", "Water (H2O)", "Electricity"],
+      "byproducts": ["Chlorine (Cl2)", "Hydrogen (H2)"],
+      "industrial_significance": "全球年产量约8300万吨（2022年）。广泛用于纸浆造纸（~25%）、化工制造、肥皂洗涤剂、水处理、石油精炼、纺织、食品加工。",
+      "source": "web_search"
+    }
+  ],
+  "safety": {
+    "ghs_classifications": [
+      {"code": "GHS05", "label": "腐蚀性", "pictogram": "Corrosion"}
+    ],
+    "signal_word": "Danger",
+    "h_codes": ["H290: May be corrosive to metals", "H314: Causes severe skin burns and eye damage"],
+    "p_codes": ["P280: Wear protective gloves/clothing/eye protection/face protection", "P305+P351+P338: IF IN EYES: Rinse cautiously with water for several minutes"],
+    "nfpa_health": 3,
+    "nfpa_fire": 0,
+    "nfpa_reactivity": 2,
+    "nfpa_special": "ALK (strong alkali)",
+    "storage_condition": "Store in airtight containers. Keep away from acids, aluminum, zinc, tin. Hygroscopic - absorbs CO2 and moisture from air.",
+    "un_number": "1823",
+    "packing_group": "II"
+  },
+  "validation": {
+    "sources_used": ["web_search"],
+    "overall_confidence": 0.85,
+    "conflicts": []
+  }
+}

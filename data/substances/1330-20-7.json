@@ -1,0 +1,12 @@
+{
+  "substance": {"cas_number":"1330-20-7","name_cn":"二甲苯","name_en":"Xylene (mixed isomers)","molecular_formula":"C8H10","molecular_weight":106.17,"smiles":"Cc1ccc(C)cc1","substance_type":"organic","chemical_class":"aromatic_hydrocarbon","state_at_25c":"liquid"},
+  "properties":[
+    {"property_type":"boiling_point","value":139,"unit":"°C","value_text":"mixed; o-144, m-139.3, p-137-138"},{"property_type":"melting_point","value":-34,"unit":"°C","value_text":"mixed; o- -25, m- -47.4, p- 13-14"},
+    {"property_type":"density","value":0.865,"unit":"g/cm3","condition_temp":20},
+    {"property_type":"solubility","value":0.2,"unit":"g/L"},{"property_type":"flash_point","value":27,"unit":"°C"}
+  ],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":-24.4,"unit":"kJ/mol","phase":"l","standard_state":true,"value_text":"p-xylene"}],
+  "processes":[{"process_name_cn":"催化重整+异构化","process_name_en":"Catalytic Reforming + Isomerization","description_cn":"二甲苯来自石脑油催化重整BTX流。混合二甲苯中~70%经分离获得各异构体。对二甲苯（p-Xylene）是最重要的异构体——氧化制对苯二甲酸（PTA），进一步生产PET聚酯（饮料瓶、涤纶纤维）。邻二甲苯（o-Xylene）用于邻苯二甲酸酐（增塑剂）。间二甲苯（m-Xylene）用于间苯二甲酸。混合二甲苯用作涂料、油墨、胶粘剂的溶剂。","source":"web_search"}],
+  "safety":{"ghs_classifications":[{"code":"GHS02","label":"易燃"},{"code":"GHS07","label":"刺激性"},{"code":"GHS08","label":"健康危害"}],"signal_word":"Danger","h_codes":["H226","H304","H312","H315","H319","H332"],"nfpa_health":2,"nfpa_fire":3,"nfpa_reactivity":0,"un_number":"1307"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

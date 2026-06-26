@@ -1,0 +1,86 @@
+{
+  "substance": {
+    "cas_number": "7697-37-2",
+    "name_cn": "硝酸",
+    "name_en": "Nitric acid",
+    "molecular_formula": "HNO3",
+    "molecular_weight": 63.01,
+    "smiles": "[N+](=O)(O)[O-]",
+    "inchi": null,
+    "inchikey": null,
+    "iupac_name_cn": "硝酸",
+    "iupac_name_en": "Nitric acid",
+    "substance_type": "inorganic",
+    "chemical_class": "acid",
+    "state_at_25c": "liquid"
+  },
+  "names": [
+    {"name": "Aqua fortis", "language": "en", "name_type": "historical"},
+    {"name": "Spirit of nitre", "language": "en", "name_type": "historical"},
+    {"name": "硝镪水", "language": "zh", "name_type": "historical"},
+    {"name": "Fuming nitric acid", "language": "en", "name_type": "technical"},
+    {"name": "Red fuming nitric acid (RFNA)", "language": "en", "name_type": "technical"}
+  ],
+  "properties": [
+    {"property_type": "boiling_point", "value": 83, "unit": "°C", "value_text": "anhydrous; azeotrope at 68%, 120.5°C", "source": "web_search"},
+    {"property_type": "melting_point", "value": -42, "unit": "°C", "source": "web_search"},
+    {"property_type": "density", "value": 1.513, "unit": "g/cm3", "value_text": "anhydrous", "condition_temp": 20, "source": "web_search"},
+    {"property_type": "density", "value": 1.41, "unit": "g/cm3", "value_text": "commercial 68%", "condition_temp": 20, "source": "web_search"},
+    {"property_type": "solubility", "value_text": "Miscible with water in all proportions", "unit": "", "source": "web_search"},
+    {"property_type": "pKa", "value": -1.4, "unit": "", "source": "web_search"}
+  ],
+  "thermodynamics": [
+    {"data_type": "enthalpy_of_formation", "value": -207, "unit": "kJ/mol", "phase": "l", "standard_state": true, "source": "web_search"},
+    {"data_type": "enthalpy_of_formation", "value": -135.1, "unit": "kJ/mol", "phase": "g", "source": "web_search"}
+  ],
+  "reactions": [
+    {"equation": "HNO3 + H2O → H3O+ + NO3⁻", "reaction_type": "dissociation", "source": "web_search"},
+    {"equation": "4HNO3 → 4NO2 + O2 + 2H2O", "reaction_type": "decomposition", "value_text": "Photochemical/thermal decomposition — causes yellow-brown color", "source": "web_search"},
+    {"equation": "Cu + 4HNO3(conc) → Cu(NO3)2 + 2NO2 + 2H2O", "reaction_type": "oxidation", "source": "web_search"},
+    {"equation": "3Cu + 8HNO3(dil) → 3Cu(NO3)2 + 2NO + 4H2O", "reaction_type": "oxidation", "source": "web_search"},
+    {"equation": "HNO3 + 3HCl → NOCl + Cl2 + 2H2O", "reaction_type": "aqua_regia_formation", "source": "web_search"}
+  ],
+  "processes": [
+    {
+      "process_name_cn": "奥斯特瓦尔德法",
+      "process_name_en": "Ostwald Process",
+      "description_cn": "奥斯特瓦尔德法由Wilhelm Ostwald于1902年发明，是工业生产硝酸的主要方法。以氨为原料，经三步反应制得硝酸：1) 氨催化氧化——NH₃与过量空气在Pt-Rh合金网上于800-900°C反应生成NO（4NH₃ + 5O₂ → 4NO + 6H₂O）；2) NO氧化——反应气体冷却至~50°C，NO与O₂反应生成NO₂（2NO + O₂ ⇌ 2NO₂）；3) 吸收——NO₂在吸收塔中被水吸收生成硝酸（3NO₂ + H₂O → 2HNO₃ + NO），副产物NO循环回氧化步骤。所得稀硝酸（~60%）可通过与浓硫酸共蒸馏浓缩至98%。",
+      "description_en": "Industrial production via catalytic oxidation of NH₃ over Pt-Rh gauze at 800-900°C to form NO, which is oxidized to NO₂ and absorbed in water to yield HNO₃ (~60%). Concentrated to 98% via distillation with H₂SO₄.",
+      "temperature_min": 800,
+      "temperature_max": 900,
+      "temperature_opt": 850,
+      "pressure_min": 100,
+      "pressure_max": 900,
+      "pressure_opt": 400,
+      "catalyst": "Pt-Rh gauze (90% Pt, 10% Rh)",
+      "catalyst_detail": "铂铑合金网催化剂，在高反应温度下具有优异的活性和选择性。催化反应接触时间极短（~1ms），NO选择性>95%。催化剂会因PtO₂挥发而逐渐损耗。",
+      "yield_pct": 95,
+      "conversion_rate_pct": 95,
+      "raw_materials": ["Ammonia (NH3)", "Air (O2)", "Water (H2O)"],
+      "byproducts": ["NO (recycled)", "N2O (trace)", "N2 (trace)"],
+      "industrial_significance": "全球生产的大部分硝酸（~80%）用于制造硝酸铵肥料和炸药。其余用于染料、塑料（己二酸、己内酰胺）、金属蚀刻和半导体清洗。",
+      "source": "web_search"
+    }
+  ],
+  "safety": {
+    "ghs_classifications": [
+      {"code": "GHS03", "label": "氧化性"},
+      {"code": "GHS05", "label": "腐蚀性"},
+      {"code": "GHS06", "label": "毒性"}
+    ],
+    "signal_word": "Danger",
+    "h_codes": ["H272: May intensify fire; oxidizer", "H314: Causes severe skin burns and eye damage", "H330: Fatal if inhaled"],
+    "p_codes": ["P220: Keep/Store away from clothing/combustible materials", "P280: Wear protective gloves/clothing/eye protection/face protection", "P305+P351+P338: IF IN EYES: Rinse cautiously with water for several minutes"],
+    "nfpa_health": 3,
+    "nfpa_fire": 0,
+    "nfpa_reactivity": 1,
+    "nfpa_special": "OX (oxidizer)",
+    "un_number": "2031",
+    "packing_group": "I"
+  },
+  "validation": {
+    "sources_used": ["web_search"],
+    "overall_confidence": 0.85,
+    "conflicts": []
+  }
+}

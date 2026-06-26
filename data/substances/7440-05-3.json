@@ -1,0 +1,8 @@
+{
+  "substance": {"cas_number":"7440-05-3","name_cn":"钯","name_en":"Palladium","molecular_formula":"Pd","molecular_weight":106.42,"smiles":"[Pd]","substance_type":"inorganic","chemical_class":"precious_metal","state_at_25c":"solid"},
+  "properties":[{"property_type":"melting_point","value":1555,"unit":"°C"},{"property_type":"boiling_point","value":2963,"unit":"°C"},{"property_type":"density","value":12.02,"unit":"g/cm3"}],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":0,"unit":"kJ/mol","phase":"s","standard_state":true}],
+  "processes":[{"process_name_cn":"铂族金属精炼","process_name_en":"PGM Refining","description_cn":"钯是铂族金属（PGM）之一，从铜镍矿的电解阳极泥中提取，也是铂冶炼的副产物。钯是最重要的催化加氢金属——Pd/C（钯碳）是有机合成中应用最广泛的加氢脱氢催化剂。用于精细化工加氢反应、汽车尾气三效催化转化器（氧化CO和HC）、Suzuki/Heck等交叉偶联反应（Pd(PPh3)4等均相催化剂）和氢气纯化（钯膜，仅允许H2透过）。","source":"web_search"}],
+  "safety":{"nfpa_health":0,"nfpa_fire":0,"nfpa_reactivity":0,"signal_word":"None"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

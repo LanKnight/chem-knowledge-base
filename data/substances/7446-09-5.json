@@ -1,0 +1,9 @@
+{
+  "substance": {"cas_number":"7446-09-5","name_cn":"二氧化硫","name_en":"Sulfur dioxide","molecular_formula":"SO2","molecular_weight":64.06,"smiles":"O=S=O","substance_type":"inorganic","chemical_class":"acidic_oxide","state_at_25c":"gas"},
+  "properties":[{"property_type":"boiling_point","value":-10,"unit":"°C"},{"property_type":"melting_point","value":-72.4,"unit":"°C"},{"property_type":"density","value":0.002551,"unit":"g/cm3","value_text":"gas at STP"},{"property_type":"solubility","value":94,"unit":"g/L","condition_temp":25,"value_text":"Forms sulfurous acid H2SO3"}],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":-296.81,"unit":"kJ/mol","phase":"g","standard_state":true}],
+  "reactions":[{"equation":"2SO2(g) + O2(g) ⇌ 2SO3(g)","delta_h":-196.6,"delta_h_unit":"kJ/mol","reaction_type":"catalytic_oxidation","name_cn":"接触法制硫酸核心反应"}],
+  "processes":[{"process_name_cn":"硫磺燃烧+硫铁矿焙烧","process_name_en":"Sulfur Combustion + Pyrite Roasting","description_cn":"SO2主要由硫磺在过量空气中燃烧（S+O2→SO2）或硫铁矿（FeS2）焙烧制得。是接触法制硫酸的中间体——SO2在V2O5催化剂上氧化为SO3（400-600°C），再经98.3% H2SO4吸收制得硫酸。SO2也用作食品防腐剂（E220）、纸浆漂白、制冷剂和还原剂。SO2是主要的空气污染物——形成酸雨（氧化为SO3→H2SO4），燃煤电厂需通过烟气脱硫（FGD）去除。","source":"web_search"}],
+  "safety":{"ghs_classifications":[{"code":"GHS04","label":"压缩气体"},{"code":"GHS05","label":"腐蚀性"},{"code":"GHS06","label":"毒性"}],"signal_word":"Danger","h_codes":["H314","H331"],"un_number":"1079","exposure_limits":"OSHA PEL: 5 ppm TWA; NIOSH IDLH: 100 ppm"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

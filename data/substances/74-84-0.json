@@ -1,0 +1,8 @@
+{
+  "substance": {"cas_number":"74-84-0","name_cn":"乙烷","name_en":"Ethane","molecular_formula":"C2H6","molecular_weight":30.07,"smiles":"CC","substance_type":"organic","chemical_class":"alkane","state_at_25c":"gas"},
+  "properties":[{"property_type":"boiling_point","value":-88.5,"unit":"°C"},{"property_type":"melting_point","value":-182.8,"unit":"°C"},{"property_type":"density","value":0.001212,"unit":"g/cm3","value_text":"gas at STP"},{"property_type":"solubility","value":0.0604,"unit":"g/L","condition_temp":25},{"property_type":"flash_point","value":-135,"unit":"°C"},{"property_type":"autoignition_temperature","value":472,"unit":"°C"},{"property_type":"explosion_limits","value_min":2.9,"value_max":13,"unit":"% in air"}],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":-84.0,"unit":"kJ/mol","phase":"g","standard_state":true}],
+  "processes":[{"process_name_cn":"天然气分离","process_name_en":"Natural Gas Separation","description_cn":"乙烷从天然气中经深冷液化（涡轮膨胀至~ -100°C）和分馏分离获得（天然气含1-6%乙烷）。也来自石油炼制副产。乙烷几乎全部用作蒸汽裂解制乙烯的原料（~900°C，C2H6→C2H4+H2），是北美和中东乙烯生产的主要原料（比石脑油路线更经济）。也用作制冷剂（R-170）和冷冻电镜样品玻璃化冷冻剂。","source":"web_search"}],
+  "safety":{"ghs_classifications":[{"code":"GHS02","label":"易燃"},{"code":"GHS04","label":"压缩气体"}],"signal_word":"Danger","h_codes":["H220","H280"],"nfpa_health":1,"nfpa_fire":4,"nfpa_reactivity":0,"un_number":"1035"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

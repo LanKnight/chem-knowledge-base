@@ -1,0 +1,8 @@
+{
+  "substance": {"cas_number":"7439-89-6","name_cn":"铁","name_en":"Iron","molecular_formula":"Fe","molecular_weight":55.845,"smiles":"[Fe]","substance_type":"inorganic","chemical_class":"transition_metal","state_at_25c":"solid"},
+  "properties":[{"property_type":"melting_point","value":1538,"unit":"°C"},{"property_type":"boiling_point","value":2862,"unit":"°C"},{"property_type":"density","value":7.874,"unit":"g/cm3"}],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":0,"unit":"kJ/mol","phase":"s","standard_state":true,"value_text":"Element in standard state"},{"data_type":"entropy","value":27.28,"unit":"J/(mol·K)","phase":"s","standard_state":true}],
+  "processes":[{"process_name_cn":"高炉炼铁","process_name_en":"Blast Furnace","description_cn":"金属铁主要通过高炉从铁矿石（Fe2O3/Fe3O4）中还原制得：Fe2O3+3CO→2Fe+3CO2，使用焦炭作为还原剂和热源。全球粗钢产量约19亿吨/年（2023年）。铁是工业催化中最重要的活性组分之一——合成氨的铁触媒（Fe/Al2O3/K2O/CaO）是产量最大的工业催化剂，也是费托合成（F-T）和高温水煤气变换反应的主要催化组分。","source":"web_search"}],
+  "safety":{"nfpa_health":0,"nfpa_fire":0,"nfpa_reactivity":0,"signal_word":"None"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.90,"conflicts":[]}
+}

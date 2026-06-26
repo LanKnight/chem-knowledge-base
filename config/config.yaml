@@ -1,0 +1,53 @@
+# 工业化学品数据库 — 采集器配置
+# chem-knowledge-base/config/config.yaml
+
+database:
+  host: "localhost"
+  port: 5432
+  dbname: "industrial_chem"
+  user: "chemdb_user"
+  password: "${DB_PASSWORD}"  # 从环境变量读取
+
+sources:
+  pubchem:
+    base_url: "https://pubchem.ncbi.nlm.nih.gov/rest/pug"
+    rate_limit: 5       # requests/second
+    timeout: 30         # seconds
+    retry_max: 3
+    user_agent: "HunanRaiweiChemDB/1.0 (research; contact@raiw ei.com)"
+
+  nist:
+    base_url: "https://webbook.nist.gov"
+    rate_limit: 2       # requests/second (保守)
+    timeout: 60
+    retry_max: 3
+    user_agent: "HunanRaiweiChemDB/1.0 (research)"
+
+  wikipedia:
+    zh_api: "https://zh.wikipedia.org/w/api.php"
+    en_api: "https://en.wikipedia.org/w/api.php"
+    rate_limit: 10
+    timeout: 15
+    retry_max: 2
+    user_agent: "HunanRaiweiChemDB/1.0 (research)"
+
+scraping:
+  cache_dir: "./data/cache"        # HTTP 请求缓存目录
+  output_dir: "./data/substances"   # 采集结果输出目录
+  download_dir: "./data/downloads"  # 下载文件目录
+  request_delay: 0.5                # 请求间默认延迟 (seconds)
+
+validation:
+  acceptable_deviation_pct:
+    boiling_point: 3.0
+    melting_point: 5.0
+    density: 2.0
+    molecular_weight: 0.1
+    enthalpy_of_formation: 5.0
+  cross_ref_min_sources: 2          # 交叉验证最少来源数
+  confidence_threshold: 0.6         # 低于此值需人工审核
+
+embedding:
+  model: "nomic-embed-text"         # ollama 模型名
+  dimension: 768
+  batch_size: 32

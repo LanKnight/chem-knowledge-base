@@ -1,0 +1,8 @@
+{
+  "substance": {"cas_number":"1314-62-1","name_cn":"五氧化二钒","name_en":"Vanadium pentoxide","molecular_formula":"V2O5","molecular_weight":181.88,"smiles":"O=[V](=O)O[V](=O)=O","substance_type":"inorganic","chemical_class":"transition_metal_oxide","state_at_25c":"solid"},
+  "properties":[{"property_type":"melting_point","value":690,"unit":"°C"},{"property_type":"decomposition_temperature","value":1750,"unit":"°C","value_text":"Decomposes"},{"property_type":"density","value":3.357,"unit":"g/cm3"},{"property_type":"solubility","value":0.07,"unit":"g/L","condition_temp":20}],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":-1557.4,"unit":"kJ/mol","phase":"s","standard_state":true}],
+  "processes":[{"process_name_cn":"偏钒酸铵热分解","process_name_en":"Ammonium Metavanadate Decomposition","description_cn":"V2O5由偏钒酸铵热分解制得：2NH4VO3→V2O5+2NH3+H2O（~500°C）。V2O5是接触法制硫酸的关键催化剂（SO2+1/2O2⇌SO3），催化机理基于V5+/V4+氧化还原循环。也用于选择性催化还原（SCR）脱硝（NOx→N2，V2O5-WO3/TiO2催化剂）、邻二甲苯氧化制邻苯二甲酸酐和马来酸酐生产。V2O5对人体有毒——吸入粉尘可能导致呼吸道刺激和慢性中毒。","source":"web_search"}],
+  "safety":{"ghs_classifications":[{"code":"GHS06","label":"毒性"},{"code":"GHS08","label":"健康危害"},{"code":"GHS09","label":"环境危害"}],"signal_word":"Danger","h_codes":["H302","H332","H335","H341","H361","H372","H411"],"un_number":"2862"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

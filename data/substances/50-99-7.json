@@ -1,0 +1,8 @@
+{
+  "substance": {"cas_number":"50-99-7","name_cn":"葡萄糖","name_en":"Glucose","molecular_formula":"C6H12O6","molecular_weight":180.156,"smiles":"OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1O","substance_type":"organic","chemical_class":"carbohydrate","state_at_25c":"solid"},
+  "properties":[{"property_type":"melting_point","value":146,"unit":"°C","value_text":"α-D-glucose; β-D-glucose 150°C"},{"property_type":"density","value":1.54,"unit":"g/cm3"},{"property_type":"solubility","value":909,"unit":"g/L","condition_temp":25},{"property_type":"pKa","value":12.16,"unit":""}],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":-1274.6,"unit":"kJ/mol","phase":"s","standard_state":true},{"data_type":"enthalpy_of_combustion","value":-2805,"unit":"kJ/mol","phase":"s"}],
+  "processes":[{"process_name_cn":"淀粉酶解","process_name_en":"Starch Enzymatic Hydrolysis","description_cn":"葡萄糖由淀粉经酶解制得：使用耐热α-淀粉酶在105-110°C液化淀粉，再用糖化酶在60°C糖化为葡萄糖（DE值96-98，收率>95%）。原料：玉米（北美）、小麦/马铃薯（欧洲）、木薯（热带）。全球年产量>2000万吨。约65%用作食品甜味剂，其余用于医药（静脉葡萄糖注射液、口服补液）、发酵原料（乙醇、有机酸、抗生素）、山梨醇生产和生物塑料（PLA聚乳酸）原料。","source":"web_search"}],
+  "safety":{"nfpa_health":0,"nfpa_fire":1,"nfpa_reactivity":0,"signal_word":"None (GRAS)","storage_condition":"Generally Recognized As Safe by FDA; non-toxic, biodegradable"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

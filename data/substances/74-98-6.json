@@ -1,0 +1,8 @@
+{
+  "substance": {"cas_number":"74-98-6","name_cn":"丙烷","name_en":"Propane","molecular_formula":"C3H8","molecular_weight":44.097,"smiles":"CCC","substance_type":"organic","chemical_class":"alkane","state_at_25c":"gas"},
+  "properties":[{"property_type":"boiling_point","value":-42.1,"unit":"°C"},{"property_type":"melting_point","value":-187.7,"unit":"°C"},{"property_type":"density","value":0.00201,"unit":"g/cm3","value_text":"gas at 0°C"},{"property_type":"density","value":0.493,"unit":"g/cm3","value_text":"liquid at 25°C"},{"property_type":"solubility","value":0.0626,"unit":"g/L","condition_temp":25},{"property_type":"flash_point","value":-104,"unit":"°C"},{"property_type":"autoignition_temperature","value":470,"unit":"°C"},{"property_type":"explosion_limits","value_min":2.37,"value_max":9.5,"unit":"% in air"}],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":-104.7,"unit":"kJ/mol","phase":"g","standard_state":true}],
+  "processes":[{"process_name_cn":"天然气加工+炼厂副产","process_name_en":"Natural Gas Processing + Refinery","description_cn":"丙烷是天然气加工（~53%）和石油炼制（催化裂化）的副产物，经分馏分离。是LPG（液化石油气）的主要成分。主要用途：民用/工业燃料（取暖、烹饪、车辆）、石化原料（丙烷脱氢PDH制丙烯）、制冷剂（R-290，GWP仅0.072，环保替代品）、气雾推进剂和金属切割。","source":"web_search"}],
+  "safety":{"ghs_classifications":[{"code":"GHS02","label":"易燃"},{"code":"GHS04","label":"压缩气体"}],"signal_word":"Danger","h_codes":["H220","H280"],"nfpa_health":1,"nfpa_fire":4,"nfpa_reactivity":0,"un_number":"1978"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

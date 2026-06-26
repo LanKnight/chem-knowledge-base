@@ -1,0 +1,8 @@
+{
+  "substance": {"cas_number":"6484-52-2","name_cn":"硝酸铵","name_en":"Ammonium nitrate","molecular_formula":"NH4NO3","molecular_weight":80.04,"smiles":"[NH4+].[O-][N+]([O-])=O","substance_type":"inorganic","chemical_class":"salt","state_at_25c":"solid"},
+  "properties":[{"property_type":"melting_point","value":169.6,"unit":"°C"},{"property_type":"decomposition_temperature","value":210,"unit":"°C","value_text":"Decomposes to N2O + 2H2O"},{"property_type":"density","value":1.725,"unit":"g/cm3"},{"property_type":"solubility","value":1500,"unit":"g/L","condition_temp":20}],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":-365.6,"unit":"kJ/mol","phase":"s","standard_state":true}],
+  "processes":[{"process_name_cn":"硝酸+氨中和","process_name_en":"Nitric Acid + Ammonia Neutralization","description_cn":"NH4NO3由硝酸与氨中和制得：HNO3+NH3→NH4NO3。放热中和反应在~140°C下进行，随后蒸发浓缩、造粒或制丸。全球产量>4000万吨/年（~80%硝酸+~20%氨的消费方向）。主要用作氮肥（含氮量35%，为高浓度氮肥）和工业炸药（ANFO：硝酸铵+燃料油，占民用炸药的~80%）。储存需严格防爆——硝酸铵在高温下会发生失控分解（如2020年贝鲁特爆炸事故），严禁与可燃物、还原剂混储。也用于笑气（N2O）生产。","source":"web_search"}],
+  "safety":{"ghs_classifications":[{"code":"GHS03","label":"氧化性"},{"code":"GHS07","label":"刺激性"}],"signal_word":"Warning","h_codes":["H272","H319"],"nfpa_health":1,"nfpa_fire":0,"nfpa_reactivity":3,"nfpa_special":"OX","un_number":"1942","exposure_limits":"TLV 10 mg/m³"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

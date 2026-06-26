@@ -1,0 +1,66 @@
+{
+  "substance": {
+    "cas_number": "7782-50-5",
+    "name_cn": "氯气",
+    "name_en": "Chlorine",
+    "molecular_formula": "Cl2",
+    "molecular_weight": 70.90,
+    "smiles": "ClCl",
+    "substance_type": "inorganic",
+    "chemical_class": "halogen",
+    "state_at_25c": "gas"
+  },
+  "names": [{"name": "Dichlorine", "language": "en", "name_type": "systematic"}, {"name": "液氯", "language": "zh", "name_type": "technical"}],
+  "properties": [
+    {"property_type": "boiling_point", "value": -34.05, "unit": "°C", "source": "web_search"},
+    {"property_type": "melting_point", "value": -101.5, "unit": "°C", "source": "web_search"},
+    {"property_type": "density", "value": 3.214, "unit": "g/L", "value_text": "gas at 0°C", "source": "web_search"},
+    {"property_type": "density", "value": 1.56, "unit": "g/cm3", "value_text": "liquid at -34°C", "source": "web_search"},
+    {"property_type": "vapor_pressure", "value": 678, "unit": "kPa", "condition_temp": 20, "source": "web_search"},
+    {"property_type": "solubility", "value": 7.3, "unit": "g/L", "condition_temp": 20, "value_text": "Reacts forming HCl + HOCl", "source": "web_search"},
+    {"property_type": "critical_temperature", "value": 144, "unit": "°C", "source": "web_search"},
+    {"property_type": "critical_pressure", "value": 7.71, "unit": "MPa", "source": "web_search"}
+  ],
+  "thermodynamics": [
+    {"data_type": "enthalpy_of_vaporization", "value": 20.4, "unit": "kJ/mol", "source": "web_search"},
+    {"data_type": "enthalpy_of_formation", "value": 0, "unit": "kJ/mol", "phase": "g", "value_text": "Element in standard state", "standard_state": true, "source": "web_search"}
+  ],
+  "reactions": [
+    {"equation": "Cl2 + H2 → 2HCl", "reaction_type": "combustion", "source": "web_search"},
+    {"equation": "Cl2 + 2NaOH → NaCl + NaClO + H2O", "reaction_type": "disproportionation", "source": "web_search"},
+    {"equation": "Cl2 + H2O ⇌ HCl + HOCl", "reaction_type": "hydrolysis", "source": "web_search"},
+    {"equation": "2NaCl + 2H2O → Cl2↑ + H2↑ + 2NaOH", "reaction_type": "electrolysis", "name_cn": "氯碱法", "source": "web_search"}
+  ],
+  "processes": [{
+    "process_name_cn": "氯碱法（离子膜电解）",
+    "process_name_en": "Chloralkali Process (Membrane Cell)",
+    "description_cn": "氯气几乎全部通过电解饱和食盐水（氯碱法）生产。总反应：2NaCl + 2H₂O → Cl₂ + H₂ + 2NaOH。现代主流为离子膜法（占~81%全球产能），使用全氟离子交换膜分隔阴阳极。钛阳极上Cl⁻氧化为Cl₂，镍阴极上H₂O还原为H₂和OH⁻。全球产能约5800万吨/年。氯气是产量前十的化工产品。主要用于PVC生产、水消毒、纸浆漂白、有机氯化物合成和次氯酸钠（漂白剂）生产。",
+    "temperature_opt": 85,
+    "catalyst": "Nafion perfluorinated ion-exchange membrane",
+    "yield_pct": 99,
+    "raw_materials": ["Sodium chloride (NaCl)", "Water (H2O)", "Electricity"],
+    "byproducts": ["Sodium hydroxide (NaOH)", "Hydrogen (H2)"],
+    "industrial_significance": "氯气是全球最重要的基础化工原料之一，与NaOH联产。主要驱动力来自PVC（聚氯乙烯）和聚氨酯中间体（MDI/TDI）的需求。",
+    "source": "web_search"
+  }],
+  "safety": {
+    "ghs_classifications": [
+      {"code": "GHS03", "label": "氧化性"},
+      {"code": "GHS04", "label": "压缩气体"},
+      {"code": "GHS06", "label": "毒性"},
+      {"code": "GHS09", "label": "环境危害"}
+    ],
+    "signal_word": "Danger",
+    "h_codes": ["H270: May cause or intensify fire; oxidizer", "H280: Contains gas under pressure", "H330: Fatal if inhaled", "H315: Causes skin irritation", "H319: Causes serious eye irritation", "H335: May cause respiratory irritation", "H400: Very toxic to aquatic life"],
+    "p_codes": ["P220: Keep away from combustible materials", "P260: Do not breathe gas", "P273: Avoid release to environment", "P280: Wear protective gloves/clothing/eye protection"],
+    "nfpa_health": 4,
+    "nfpa_fire": 0,
+    "nfpa_reactivity": 0,
+    "nfpa_special": "OX",
+    "lc50_inhalation": 293,
+    "un_number": "1017",
+    "packing_group": null,
+    "exposure_limits": "OSHA PEL: 1 ppm ceiling; NIOSH IDLH: 10 ppm; China MAC: 1 mg/m³"
+  },
+  "validation": {"sources_used": ["web_search"], "overall_confidence": 0.85, "conflicts": []}
+}

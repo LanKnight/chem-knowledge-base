@@ -1,0 +1,8 @@
+{
+  "substance": {"cas_number":"107-06-2","name_cn":"1,2-二氯乙烷","name_en":"1,2-Dichloroethane","molecular_formula":"C2H4Cl2","molecular_weight":98.96,"smiles":"ClCCCl","substance_type":"organic","chemical_class":"haloalkane","state_at_25c":"liquid"},
+  "properties":[{"property_type":"boiling_point","value":83.5,"unit":"°C"},{"property_type":"melting_point","value":-35,"unit":"°C"},{"property_type":"density","value":1.253,"unit":"g/cm3","condition_temp":25},{"property_type":"vapor_pressure","value":11.6,"unit":"kPa","condition_temp":25},{"property_type":"solubility","value":8.7,"unit":"g/L","condition_temp":25},{"property_type":"flash_point","value":13,"unit":"°C"},{"property_type":"autoignition_temperature","value":413,"unit":"°C"},{"property_type":"explosion_limits","value_min":6.2,"value_max":16,"unit":"% in air"}],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":-165.7,"unit":"kJ/mol","phase":"l","standard_state":true}],
+  "processes":[{"process_name_cn":"乙烯氯化+氧氯化","process_name_en":"Direct Chlorination + Oxychlorination","description_cn":"二氯乙烷（EDC）通过两条路线生产：1) 直接氯化——C2H4+Cl2→ClCH2CH2Cl（FeCl3催化，~50°C）；2) 氧氯化——C2H4+2HCl+1/2O2→ClCH2CH2Cl+H2O（CuCl2催化，~250°C）。全球产量>5000万吨。约95%的EDC用于热裂解制氯乙烯单体（VCM），进而聚合为PVC。EDC也是乙烯二胺和乙二胺四乙酸（EDTA）的原料。","source":"web_search"}],
+  "safety":{"ghs_classifications":[{"code":"GHS02","label":"易燃"},{"code":"GHS06","label":"毒性"},{"code":"GHS08","label":"健康危害"}],"signal_word":"Danger","h_codes":["H225","H302","H304","H315","H319","H331","H335","H350"],"nfpa_health":2,"nfpa_fire":3,"nfpa_reactivity":0,"un_number":"1184","exposure_limits":"IARC Group 2B carcinogen"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

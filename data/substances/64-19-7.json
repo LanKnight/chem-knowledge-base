@@ -1,0 +1,19 @@
+{
+  "substance": {"cas_number":"64-19-7","name_cn":"乙酸","name_en":"Acetic acid","molecular_formula":"CH3COOH","molecular_weight":60.05,"smiles":"CC(=O)O","substance_type":"organic","chemical_class":"carboxylic_acid","state_at_25c":"liquid"},
+  "names":[{"name":"Ethanoic acid","language":"en","name_type":"systematic"},{"name":"Vinegar","language":"en","name_type":"common","value_text":"4-8% solution"},{"name":"醋酸","language":"zh","name_type":"common"},{"name":"冰醋酸","language":"zh","name_type":"common","value_text":"glacial, >99%"}],
+  "properties":[
+    {"property_type":"boiling_point","value":118,"unit":"°C"},
+    {"property_type":"melting_point","value":16.5,"unit":"°C","value_text":"Freezes below 16.5°C — 'glacial' acetic acid"},
+    {"property_type":"density","value":1.049,"unit":"g/cm3","condition_temp":20},
+    {"property_type":"vapor_pressure","value":1.5,"unit":"kPa","condition_temp":20},
+    {"property_type":"solubility","value_text":"Fully miscible with water","unit":""},
+    {"property_type":"pKa","value":4.76,"unit":""},
+    {"property_type":"flash_point","value":40,"unit":"°C"},
+    {"property_type":"autoignition_temperature","value":463,"unit":"°C"},
+    {"property_type":"explosion_limits","value_min":4,"value_max":19.9,"unit":"% in air"}
+  ],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":-483.5,"unit":"kJ/mol","phase":"l","standard_state":true}],
+  "processes":[{"process_name_cn":"甲醇羰基化法（孟山都/Cativa工艺）","process_name_en":"Methanol Carbonylation (Monsanto/Cativa)","description_cn":"甲醇羰基化法占全球乙酸产量约75%：CH3OH + CO → CH3COOH。孟山都工艺使用铑催化剂（[Rh(CO)2I2]⁻），Cativa工艺使用铱催化剂，在~180°C和30-40 bar下进行，选择性>99%。其他制法包括乙醛氧化和细菌发酵（食醋，~10%产量）。全球需求约1800万吨/年。主要用于生产乙酸乙烯酯单体（VAM）、对苯二甲酸（PTA）、乙酸纤维素、乙酸酯溶剂和食醋。","temperature_opt":180,"pressure_opt":3.5,"catalyst":"Rh/Ir carbonyl complex","raw_materials":["Methanol","Carbon monoxide"],"industrial_significance":"乙酸是重要的有机酸，广泛用于聚合物（VAM→PVA/PVB、醋酸纤维素）和PTA（→PET）生产","source":"web_search"}],
+  "safety":{"ghs_classifications":[{"code":"GHS02","label":"易燃"},{"code":"GHS05","label":"腐蚀性"}],"signal_word":"Danger","h_codes":["H226","H314"],"nfpa_health":3,"nfpa_fire":2,"nfpa_reactivity":0,"un_number":"2789","exposure_limits":"OSHA PEL: 10 ppm TWA; IDLH: 50 ppm"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

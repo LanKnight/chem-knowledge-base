@@ -1,0 +1,51 @@
+tier,cas_number,name_cn,name_en,molecular_formula,substance_type
+1,7664-93-9,硫酸,Sulfuric acid,H2SO4,inorganic
+1,7664-41-7,氨,Ammonia,NH3,inorganic
+1,1310-73-2,氢氧化钠,Sodium hydroxide,NaOH,inorganic
+1,7697-37-2,硝酸,Nitric acid,HNO3,inorganic
+1,7647-01-0,盐酸,Hydrochloric acid,HCl,inorganic
+1,7664-38-2,磷酸,Phosphoric acid,H3PO4,inorganic
+1,497-19-8,碳酸钠,Sodium carbonate,Na2CO3,inorganic
+1,7782-50-5,氯气,Chlorine,Cl2,inorganic
+1,1333-74-0,氢气,Hydrogen,H2,inorganic
+1,7727-37-9,氮气,Nitrogen,N2,inorganic
+1,7782-44-7,氧气,Oxygen,O2,inorganic
+1,124-38-9,二氧化碳,Carbon dioxide,CO2,inorganic
+1,1305-78-8,氧化钙,Calcium oxide,CaO,inorganic
+1,1305-62-0,氢氧化钙,Calcium hydroxide,Ca(OH)2,inorganic
+1,7647-14-5,氯化钠,Sodium chloride,NaCl,inorganic
+2,74-85-1,乙烯,Ethylene,C2H4,organic
+2,115-07-1,丙烯,Propylene,C3H6,organic
+2,74-82-8,甲烷,Methane,CH4,organic
+2,64-17-5,乙醇,Ethanol,C2H5OH,organic
+2,67-56-1,甲醇,Methanol,CH3OH,organic
+2,71-43-2,苯,Benzene,C6H6,organic
+2,74-86-2,乙炔,Acetylene,C2H2,organic
+2,50-00-0,甲醛,Formaldehyde,CH2O,organic
+2,75-21-8,环氧乙烷,Ethylene oxide,C2H4O,organic
+2,64-19-7,乙酸,Acetic acid,CH3COOH,organic
+2,108-88-3,甲苯,Toluene,C6H5CH3,organic
+2,1330-20-7,二甲苯,Xylene,C8H10,organic
+2,74-84-0,乙烷,Ethane,C2H6,organic
+2,74-98-6,丙烷,Propane,C3H8,organic
+2,107-06-2,二氯乙烷,1,2-Dichloroethane,C2H4Cl2,organic
+2,67-64-1,丙酮,Acetone,C3H6O,organic
+2,75-01-4,氯乙烯,Vinyl chloride,CH2=CHCl,organic
+2,110-82-7,环己烷,Cyclohexane,C6H12,organic
+2,50-99-7,葡萄糖,Glucose,C6H12O6,organic
+2,9005-25-8,淀粉,Starch,(C6H10O5)n,organic
+3,7439-89-6,铁,Iron,Fe,inorganic
+3,1314-62-1,五氧化二钒,Vanadium pentoxide,V2O5,inorganic
+3,1344-28-1,氧化铝,Aluminum oxide,Al2O3,inorganic
+3,7631-86-9,二氧化硅,Silicon dioxide,SiO2,inorganic
+3,1309-37-1,三氧化二铁,Iron(III) oxide,Fe2O3,inorganic
+3,7440-02-0,镍,Nickel,Ni,inorganic
+3,7440-05-3,钯,Palladium,Pd,inorganic
+3,7440-06-4,铂,Platinum,Pt,inorganic
+3,7446-09-5,二氧化硫,Sulfur dioxide,SO2,inorganic
+3,7446-11-9,三氧化硫,Sulfur trioxide,SO3,inorganic
+3,6484-52-2,硝酸铵,Ammonium nitrate,NH4NO3,inorganic
+3,7783-20-2,硫酸铵,Ammonium sulfate,(NH4)2SO4,inorganic
+3,12167-74-7,羟基磷灰石,Hydroxyapatite,Ca5(PO4)3(OH),inorganic
+3,630-08-0,一氧化碳,Carbon monoxide,CO,inorganic
+3,1310-58-3,氢氧化钾,Potassium hydroxide,KOH,inorganic

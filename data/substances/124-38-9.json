@@ -1,0 +1,54 @@
+{
+  "substance": {
+    "cas_number": "124-38-9", "name_cn": "二氧化碳", "name_en": "Carbon dioxide",
+    "molecular_formula": "CO2", "molecular_weight": 44.009, "smiles": "O=C=O",
+    "substance_type": "inorganic", "chemical_class": "acidic_oxide", "state_at_25c": "gas"
+  },
+  "names": [
+    {"name": "Carbonic anhydride", "language": "en", "name_type": "systematic"},
+    {"name": "Dry ice", "language": "en", "name_type": "common", "value_text": "solid form"},
+    {"name": "干冰", "language": "zh", "name_type": "common"}, {"name": "E290", "language": "en", "name_type": "food_additive"}
+  ],
+  "properties": [
+    {"property_type": "sublimation_point", "value": -78.5, "unit": "°C", "value_text": "at 1 atm — solid ⇌ gas directly", "source": "web_search"},
+    {"property_type": "triple_point", "value": -56.6, "unit": "°C", "condition_pressure": 518, "value_text": "at 5.18 bar", "source": "web_search"},
+    {"property_type": "critical_temperature", "value": 31.0, "unit": "°C", "source": "web_search"},
+    {"property_type": "critical_pressure", "value": 7.38, "unit": "MPa", "source": "web_search"},
+    {"property_type": "density", "value": 0.001977, "unit": "g/cm3", "value_text": "gas at 0°C", "source": "web_search"},
+    {"property_type": "density", "value": 1.562, "unit": "g/cm3", "value_text": "solid (dry ice) at -78.5°C", "source": "web_search"},
+    {"property_type": "solubility", "value": 1.45, "unit": "g/L", "condition_temp": 25, "value_text": "Forms carbonic acid (H2CO3)", "source": "web_search"},
+    {"property_type": "pKa1", "value": 6.35, "unit": "", "value_text": "apparent, for H2CO3", "source": "web_search"},
+    {"property_type": "pKa2", "value": 10.33, "unit": "", "source": "web_search"}
+  ],
+  "thermodynamics": [
+    {"data_type": "enthalpy_of_formation", "value": -393.5, "unit": "kJ/mol", "phase": "g", "standard_state": true, "source": "web_search"},
+    {"data_type": "entropy", "value": 213.8, "unit": "J/(mol·K)", "phase": "g", "standard_state": true, "source": "web_search"},
+    {"data_type": "heat_capacity", "value": 37.135, "unit": "J/(mol·K)", "phase": "g", "condition_temp": 25, "source": "web_search"},
+    {"data_type": "enthalpy_of_sublimation", "value": 25.25, "unit": "kJ/mol", "source": "web_search"}
+  ],
+  "reactions": [
+    {"equation": "CO2 + H2O ⇌ H2CO3", "reaction_type": "hydration", "source": "web_search"},
+    {"equation": "CO2 + 2NaOH → Na2CO3 + H2O", "reaction_type": "acid-base", "source": "web_search"},
+    {"equation": "CO2 + Ca(OH)2 → CaCO3↓ + H2O", "reaction_type": "precipitation", "value_text": "Limewater test", "source": "web_search"},
+    {"equation": "6CO2 + 6H2O → C6H12O6 + 6O2", "reaction_type": "photosynthesis", "source": "web_search"},
+    {"equation": "CO2 + 3H2 → CH3OH + H2O", "reaction_type": "hydrogenation", "value_text": "Methanol synthesis", "source": "web_search"},
+    {"equation": "2NH3 + CO2 → (NH2)2CO + H2O", "reaction_type": "urea_synthesis", "source": "web_search"}
+  ],
+  "processes": [{
+    "process_name_cn": "工业副产回收 + 天然气井",
+    "process_name_en": "Industrial Byproduct Recovery",
+    "description_cn": "工业CO₂主要通过以下途径获得：1) 合成氨/制氢过程中蒸汽重整的副产物（CH₄ + 2H₂O → CO₂ + 4H₂）；2) 发酵工业（乙醇发酵副产CO₂）；3) 石灰石煅烧（CaCO₃ → CaO + CO₂）；4) 化石燃料燃烧烟气捕集（胺吸收法）；5) 天然CO₂气井直接开采。CO₂用途广泛：尿素合成（最大化工用途）、饮料碳酸化、干冰制冷（-78.5°C）、灭火器、超临界CO₂绿色溶剂（咖啡因萃取、干洗）、增强石油采收率（EOR）和水处理pH调节。食品添加剂编号E290。",
+    "raw_materials": ["Various (byproduct)"],
+    "industrial_significance": "CO₂是碳循环的核心分子。工业上最主要化工用途是尿素合成（2NH₃ + CO₂ → (NH₂)₂CO + H₂O）和甲醇合成。超临界CO₂作为绿色溶剂在萃取和清洗领域日益重要。",
+    "source": "web_search"
+  }],
+  "safety": {
+    "ghs_classifications": [{"code": "GHS04", "label": "压缩气体"}],
+    "signal_word": "Warning",
+    "h_codes": ["H280: Contains gas under pressure; may explode if heated"],
+    "nfpa_health": 1, "nfpa_fire": 0, "nfpa_reactivity": 0,
+    "un_number": "1013",
+    "storage_condition": "Asphyxiant — heavier than air, accumulates in low-lying areas. Ventilate confined spaces. Dry ice causes severe cold burns — use insulated gloves."
+  },
+  "validation": {"sources_used": ["web_search"], "overall_confidence": 0.85, "conflicts": []}
+}

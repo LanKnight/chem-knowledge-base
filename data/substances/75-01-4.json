@@ -1,0 +1,16 @@
+{
+  "substance": {"cas_number":"75-01-4","name_cn":"氯乙烯","name_en":"Vinyl chloride","molecular_formula":"C2H3Cl","molecular_weight":62.50,"smiles":"C=CCl","substance_type":"organic","chemical_class":"haloalkene","state_at_25c":"gas"},
+  "properties":[
+    {"property_type":"boiling_point","value":-13.4,"unit":"°C"},{"property_type":"melting_point","value":-153.8,"unit":"°C"},
+    {"property_type":"density","value":0.911,"unit":"g/cm3","value_text":"liquid at 20°C"},
+    {"property_type":"vapor_pressure","value":346.6,"unit":"kPa","condition_temp":25},
+    {"property_type":"solubility","value":2.76,"unit":"g/L","condition_temp":25},
+    {"property_type":"flash_point","value":-78,"unit":"°C"},
+    {"property_type":"autoignition_temperature","value":472,"unit":"°C"},
+    {"property_type":"explosion_limits","value_min":3.6,"value_max":33,"unit":"% in air"}
+  ],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":21.7,"unit":"kJ/mol","phase":"g","standard_state":true}],
+  "processes":[{"process_name_cn":"平衡法（EDC裂解）","process_name_en":"Balanced Process (EDC Cracking)","description_cn":"氯乙烯通过平衡法生产：1) 乙烯直接氯化制二氯乙烷（EDC）：C2H4 + Cl2 → ClCH2CH2Cl（FeCl3催化）；2) EDC热裂解：ClCH2CH2Cl → CH2=CHCl + HCl（~500°C，15-30 atm）；3) 氧氯化法回收HCl：C2H4 + 2HCl + 1/2O2 → ClCH2CH2Cl + H2O（CuCl2催化）。约99%的氯乙烯用于生产聚氯乙烯（PVC），全球PVC树脂年产量约4000万吨。","source":"web_search"}],
+  "safety":{"ghs_classifications":[{"code":"GHS02","label":"易燃"},{"code":"GHS04","label":"压缩气体"},{"code":"GHS08","label":"健康危害"}],"signal_word":"Danger","h_codes":["H220","H280","H350"],"nfpa_health":2,"nfpa_fire":4,"nfpa_reactivity":2,"un_number":"1086","exposure_limits":"OSHA PEL: 1 ppm TWA; IARC Group 1 carcinogen"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

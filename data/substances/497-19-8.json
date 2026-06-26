@@ -1,0 +1,62 @@
+{
+  "substance": {
+    "cas_number": "497-19-8",
+    "name_cn": "碳酸钠",
+    "name_en": "Sodium carbonate",
+    "molecular_formula": "Na2CO3",
+    "molecular_weight": 105.99,
+    "smiles": "[Na+].[Na+].[O-]C([O-])=O",
+    "substance_type": "inorganic",
+    "chemical_class": "salt",
+    "state_at_25c": "solid"
+  },
+  "names": [
+    {"name": "Soda ash", "language": "en", "name_type": "trade"},
+    {"name": "Washing soda", "language": "en", "name_type": "common"},
+    {"name": "Soda crystals", "language": "en", "name_type": "common"},
+    {"name": "纯碱", "language": "zh", "name_type": "trade"},
+    {"name": "苏打", "language": "zh", "name_type": "common"},
+    {"name": "E500", "language": "en", "name_type": "food_additive"}
+  ],
+  "properties": [
+    {"property_type": "melting_point", "value": 851, "unit": "°C", "source": "web_search"},
+    {"property_type": "decomposition_temperature", "value": 400, "unit": "°C", "value_text": "Begins losing CO2 above ~400°C", "source": "web_search"},
+    {"property_type": "density", "value": 2.54, "unit": "g/cm3", "condition_temp": 25, "source": "web_search"},
+    {"property_type": "solubility", "value": 34, "unit": "g/100mL", "condition_temp": 27.8, "source": "web_search"},
+    {"property_type": "solubility", "value": 7, "unit": "g/100mL", "condition_temp": 0, "source": "web_search"},
+    {"property_type": "pKa", "value": 10.33, "unit": "", "source": "web_search"},
+    {"property_type": "pH", "value": 11.6, "unit": "", "value_text": "1% aqueous solution", "source": "web_search"}
+  ],
+  "thermodynamics": [
+    {"data_type": "enthalpy_of_formation", "value": -1130.7, "unit": "kJ/mol", "phase": "s", "standard_state": true, "source": "web_search"},
+    {"data_type": "entropy", "value": 135.0, "unit": "J/(mol·K)", "phase": "s", "standard_state": true, "source": "web_search"}
+  ],
+  "reactions": [
+    {"equation": "Na2CO3 + 2HCl → 2NaCl + H2O + CO2↑", "reaction_type": "acid_reaction", "source": "web_search"},
+    {"equation": "Na2CO3 + Ca(OH)2 → CaCO3↓ + 2NaOH", "reaction_type": "causticization", "source": "web_search"},
+    {"equation": "2NaHCO3 → Na2CO3 + H2O + CO2 (at ~200°C)", "reaction_type": "calcination", "source": "web_search"}
+  ],
+  "processes": [
+    {
+      "process_name_cn": "索尔维法（氨碱法）",
+      "process_name_en": "Solvay Process",
+      "description_cn": "索尔维法由Ernest Solvay于1861年发明，是全球合成纯碱的主要方法（~90%+）。以食盐（NaCl）、石灰石（CaCO₃）和氨（NH₃）为原料。流程：1) 石灰石煅烧制CO₂和CaO；2) 在氨化盐水中通入CO₂，析出NaHCO₃沉淀（NaCl + NH₃ + CO₂ + H₂O → NaHCO₃↓ + NH₄Cl）；3) NaHCO₃过滤后在~200°C煅烧分解为Na₂CO₃；4) 氨回收（2NH₄Cl + CaO → 2NH₃ + CaCl₂ + H₂O）。氨循环使用，主要废产物为CaCl₂。",
+      "description_en": "The Solvay process produces soda ash from NaCl, CaCO₃ and NH₃ (recycled). NaHCO₃ precipitates from ammoniated brine with CO₂, then calcined to Na₂CO₃. NH₃ is regenerated; CaCl₂ is the waste product.",
+      "temperature_opt": 200,
+      "raw_materials": ["Sodium chloride (NaCl)", "Limestone (CaCO3)", "Ammonia (NH3, recycled)", "Water"],
+      "byproducts": ["Calcium chloride (CaCl2)"],
+      "industrial_significance": "纯碱是全球最重要的化工产品之一，约50%用于玻璃制造（助熔剂降低SiO₂熔点）。其余用于洗涤剂、化学品生产、水处理、纺织、食品（E500）。侯氏制碱法（侯德榜，1930年代）将NH₄Cl联产为肥料，消除了CaCl₂废料。",
+      "source": "web_search"
+    }
+  ],
+  "safety": {
+    "ghs_classifications": [{"code": "GHS07", "label": "刺激性"}],
+    "signal_word": "Warning",
+    "h_codes": ["H319: Causes serious eye irritation"],
+    "p_codes": ["P305+P351+P338: IF IN EYES: Rinse cautiously with water"],
+    "nfpa_health": 1,
+    "nfpa_fire": 0,
+    "nfpa_reactivity": 0
+  },
+  "validation": {"sources_used": ["web_search"], "overall_confidence": 0.85, "conflicts": []}
+}

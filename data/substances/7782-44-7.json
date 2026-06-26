@@ -1,0 +1,48 @@
+{
+  "substance": {
+    "cas_number": "7782-44-7", "name_cn": "氧气", "name_en": "Oxygen",
+    "molecular_formula": "O2", "molecular_weight": 31.999, "smiles": "O=O",
+    "substance_type": "inorganic", "chemical_class": "nonmetal_element", "state_at_25c": "gas"
+  },
+  "names": [{"name": "Dioxygen", "language": "en", "name_type": "systematic"}, {"name": "液氧", "language": "zh", "name_type": "common"}],
+  "properties": [
+    {"property_type": "boiling_point", "value": -182.96, "unit": "°C", "source": "web_search"},
+    {"property_type": "melting_point", "value": -218.79, "unit": "°C", "source": "web_search"},
+    {"property_type": "density", "value": 0.001429, "unit": "g/cm3", "value_text": "gas at STP", "source": "web_search"},
+    {"property_type": "density", "value": 1.141, "unit": "g/cm3", "value_text": "liquid at boiling point", "source": "web_search"},
+    {"property_type": "critical_temperature", "value": -118.57, "unit": "°C", "source": "web_search"},
+    {"property_type": "critical_pressure", "value": 5.04, "unit": "MPa", "source": "web_search"},
+    {"property_type": "solubility", "value": 0.0395, "unit": "g/kg", "condition_temp": 25, "value_text": "Slightly soluble in water", "source": "web_search"},
+    {"property_type": "bond_energy", "value": 498, "unit": "kJ/mol", "value_text": "O=O double bond", "source": "web_search"}
+  ],
+  "thermodynamics": [
+    {"data_type": "enthalpy_of_vaporization", "value": 6.82, "unit": "kJ/mol", "source": "web_search"},
+    {"data_type": "enthalpy_of_fusion", "value": 0.444, "unit": "kJ/mol", "source": "web_search"},
+    {"data_type": "heat_capacity", "value": 29.38, "unit": "J/(mol·K)", "phase": "g", "condition_temp": 25, "source": "web_search"},
+    {"data_type": "entropy", "value": 205.04, "unit": "J/(mol·K)", "phase": "g", "standard_state": true, "source": "web_search"}
+  ],
+  "reactions": [
+    {"equation": "2H2 + O2 → 2H2O", "reaction_type": "combustion", "source": "web_search"},
+    {"equation": "CH4 + 2O2 → CO2 + 2H2O", "reaction_type": "combustion", "source": "web_search"},
+    {"equation": "2SO2 + O2 ⇌ 2SO3", "reaction_type": "catalytic_oxidation", "name_cn": "接触法制硫酸关键反应", "source": "web_search"},
+    {"equation": "4NH3 + 5O2 → 4NO + 6H2O", "reaction_type": "catalytic_oxidation", "name_cn": "奥斯特瓦尔德法", "source": "web_search"}
+  ],
+  "processes": [{
+    "process_name_cn": "深冷空分法",
+    "process_name_en": "Cryogenic Air Separation",
+    "description_cn": "工业氧气主要通过深冷空分制取（占~55%以上）。空气经压缩、净化、冷却液化后，在双塔精馏系统中分离。下塔（~5-6 bar）将N₂（沸点-196°C）与富氧液（~35-40% O₂）分离；富氧液进入上塔（~0.3-0.5 bar）进一步精馏，高纯氧气（99.5-99.8%）从塔底采出。中小规模使用变压吸附（PSA/VSA，沸石分子筛选择性吸附N₂，产氧纯度90-93%）。约55%的工业氧气用于钢铁冶炼（碱性氧气转炉BOF），25%用于化学品生产（环氧乙烷、合成气等），~10%医用。",
+    "raw_materials": ["Air"], "byproducts": ["Nitrogen (N2)", "Argon (Ar)"],
+    "industrial_significance": "氧气是地球上最丰富的元素（空气~21%）。工业氧气是钢铁、化工和医疗行业不可替代的基础原料。",
+    "source": "web_search"
+  }],
+  "safety": {
+    "ghs_classifications": [{"code": "GHS03", "label": "氧化性"}, {"code": "GHS04", "label": "压缩气体"}],
+    "signal_word": "Danger",
+    "h_codes": ["H270: May cause or intensify fire; oxidizer", "H280: Contains gas under pressure"],
+    "p_codes": ["P220: Keep away from combustible materials", "P244: Keep valves free from oil and grease", "P370+P376: In case of fire: Stop leak if safe to do so"],
+    "nfpa_health": 0, "nfpa_fire": 0, "nfpa_reactivity": 0, "nfpa_special": "OX",
+    "un_number": "1072",
+    "storage_condition": "Keep away from flammable materials, oil, grease. LOX can cause spontaneous combustion on contact with organic materials."
+  },
+  "validation": {"sources_used": ["web_search"], "overall_confidence": 0.85, "conflicts": []}
+}

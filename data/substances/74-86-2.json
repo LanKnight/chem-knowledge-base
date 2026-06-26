@@ -1,0 +1,17 @@
+{
+  "substance": {"cas_number":"74-86-2","name_cn":"乙炔","name_en":"Acetylene","molecular_formula":"C2H2","molecular_weight":26.038,"smiles":"C#C","substance_type":"organic","chemical_class":"alkyne","state_at_25c":"gas"},
+  "names":[{"name":"Ethyne","language":"en","name_type":"systematic"},{"name":"电石气","language":"zh","name_type":"common"}],
+  "properties":[
+    {"property_type":"sublimation_point","value":-84,"unit":"°C","value_text":"at 1 atm"},
+    {"property_type":"melting_point","value":-80.8,"unit":"°C","value_text":"triple point at 1.27 atm"},
+    {"property_type":"density","value":0.001177,"unit":"g/cm3","value_text":"gas at 0°C"},
+    {"property_type":"solubility","value":1.06,"unit":"g/L","condition_temp":25},
+    {"property_type":"flash_point","value":-18,"unit":"°C"},
+    {"property_type":"autoignition_temperature","value":305,"unit":"°C"},
+    {"property_type":"explosion_limits","value_min":2.5,"value_max":100,"unit":"% in air","value_text":"唯一能在没有氧化剂的条件下爆炸分解的气体"}
+  ],
+  "thermodynamics":[{"data_type":"enthalpy_of_formation","value":226.7,"unit":"kJ/mol","phase":"g","standard_state":true,"value_text":"高度吸热——可爆炸分解为碳和氢"}],
+  "processes":[{"process_name_cn":"天然气部分燃烧法","process_name_en":"Partial Combustion of Methane","description_cn":"欧美主流工艺：甲烷在约1500°C下部分燃烧（3CH4 + 3O2 → C2H2 + CO + 5H2O），反应后极速淬冷。中国主流工艺为电石法：CaC2 + 2H2O → Ca(OH)2 + C2H2。乙炔是唯一能在无氧化剂条件下爆炸分解的气体（ΔfH°>0），因此需溶于丙酮中储运（27.9 g/kg丙酮，1 atm）。氧乙炔火焰温度~3300°C，广泛用于焊接切割。","temperature_opt":1500,"raw_materials":["Methane","Oxygen"],"byproducts":["CO","H2"],"source":"web_search"}],
+  "safety":{"ghs_classifications":[{"code":"GHS02","label":"易燃"},{"code":"GHS04","label":"压缩气体"}],"signal_word":"Danger","h_codes":["H220","H230","H336"],"nfpa_health":1,"nfpa_fire":4,"nfpa_reactivity":3,"un_number":"1001"},
+  "validation":{"sources_used":["web_search"],"overall_confidence":0.85,"conflicts":[]}
+}

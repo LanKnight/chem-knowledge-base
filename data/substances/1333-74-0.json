@@ -1,0 +1,65 @@
+{
+  "substance": {
+    "cas_number": "1333-74-0",
+    "name_cn": "氢气",
+    "name_en": "Hydrogen",
+    "molecular_formula": "H2",
+    "molecular_weight": 2.016,
+    "smiles": "[H][H]",
+    "substance_type": "inorganic",
+    "chemical_class": "nonmetal_element",
+    "state_at_25c": "gas"
+  },
+  "names": [{"name": "Dihydrogen", "language": "en", "name_type": "systematic"}, {"name": "Molecular hydrogen", "language": "en", "name_type": "systematic"}],
+  "properties": [
+    {"property_type": "boiling_point", "value": -252.88, "unit": "°C", "source": "web_search"},
+    {"property_type": "melting_point", "value": -259.16, "unit": "°C", "source": "web_search"},
+    {"property_type": "density", "value": 0.00008988, "unit": "g/cm3", "value_text": "gas at STP; ~1/14 density of air", "source": "web_search"},
+    {"property_type": "density", "value": 0.071, "unit": "g/cm3", "value_text": "liquid at boiling point", "source": "web_search"},
+    {"property_type": "critical_temperature", "value": -239.96, "unit": "°C", "source": "web_search"},
+    {"property_type": "critical_pressure", "value": 1.30, "unit": "MPa", "source": "web_search"},
+    {"property_type": "solubility", "value": 0.0016, "unit": "g/L", "condition_temp": 20, "value_text": "Slightly soluble in water", "source": "web_search"},
+    {"property_type": "flash_point", "value_text": "Flammable gas", "unit": "", "source": "web_search"},
+    {"property_type": "autoignition_temperature", "value": 500, "unit": "°C", "source": "web_search"},
+    {"property_type": "explosion_limits", "value_min": 4, "value_max": 75, "unit": "% by volume in air", "source": "web_search"}
+  ],
+  "thermodynamics": [
+    {"data_type": "enthalpy_of_combustion", "value": -286, "unit": "kJ/mol", "value_text": "HHV = 141.9 MJ/kg", "source": "web_search"},
+    {"data_type": "enthalpy_of_vaporization", "value": 0.904, "unit": "kJ/mol", "source": "web_search"},
+    {"data_type": "enthalpy_of_fusion", "value": 0.117, "unit": "kJ/mol", "source": "web_search"},
+    {"data_type": "heat_capacity", "value": 28.84, "unit": "J/(mol·K)", "phase": "g", "condition_temp": 25, "source": "web_search"},
+    {"data_type": "bond_dissociation_energy", "value": 435.99, "unit": "kJ/mol", "value_text": "H-H bond", "source": "web_search"}
+  ],
+  "reactions": [
+    {"equation": "2H2 + O2 → 2H2O", "delta_h": -572, "delta_h_unit": "kJ/mol", "reaction_type": "combustion", "source": "web_search"},
+    {"equation": "N2 + 3H2 ⇌ 2NH3", "reaction_type": "ammonia_synthesis", "source": "web_search"},
+    {"equation": "CO + 2H2 → CH3OH", "reaction_type": "methanol_synthesis", "source": "web_search"}
+  ],
+  "processes": [{
+    "process_name_cn": "蒸汽甲烷重整（SMR）",
+    "process_name_en": "Steam Methane Reforming",
+    "description_cn": "蒸汽甲烷重整是工业制氢的主要方法（占全球H₂产量的绝大部分）。天然气（CH₄）与高温蒸汽（700-1000°C）在镍基催化剂作用下反应：CH₄ + H₂O → CO + 3H₂（重整），随后CO + H₂O → CO₂ + H₂（水煤气变换）。其他制法包括：煤/石油焦气化、水电解（~4%全球产量，能耗高但纯度高）、甲醇裂解和金属氢化物水解。氢气主要用于合成氨（~60%）、石油加氢精制、甲醇合成和油脂氢化。",
+    "temperature_min": 700,
+    "temperature_max": 1000,
+    "pressure_opt": 2500,
+    "catalyst": "Ni/Al2O3 (nickel on alumina)",
+    "raw_materials": ["Natural gas (CH4)", "Steam (H2O)"],
+    "byproducts": ["CO2"],
+    "industrial_significance": "全球氢气年产量约7000万吨（2020年代），主要用于合成氨和石油炼制。'绿色氢气'（可再生能源电解水）被视为碳中和能源转型的关键技术。",
+    "source": "web_search"
+  }],
+  "safety": {
+    "ghs_classifications": [{"code": "GHS02", "label": "易燃"}, {"code": "GHS04", "label": "压缩气体"}],
+    "signal_word": "Danger",
+    "h_codes": ["H220: Extremely flammable gas", "H280: Contains gas under pressure; may explode if heated"],
+    "p_codes": ["P210: Keep away from heat/sparks/open flames/hot surfaces", "P377: Leaking gas fire: Do not extinguish unless leak can be stopped safely", "P381: Eliminate all ignition sources if safe to do so", "P403: Store in a well-ventilated place"],
+    "nfpa_health": 0,
+    "nfpa_fire": 4,
+    "nfpa_reactivity": 0,
+    "flash_point": null,
+    "autoignition_temp": 500,
+    "explosion_limits": "4-75% in air",
+    "un_number": "1049"
+  },
+  "validation": {"sources_used": ["web_search"], "overall_confidence": 0.85, "conflicts": []}
+}

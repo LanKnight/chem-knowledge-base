@@ -1,0 +1,48 @@
+{
+  "substance": {
+    "cas_number": "7647-14-5", "name_cn": "氯化钠", "name_en": "Sodium chloride",
+    "molecular_formula": "NaCl", "molecular_weight": 58.44,
+    "substance_type": "inorganic", "chemical_class": "salt", "state_at_25c": "solid"
+  },
+  "names": [
+    {"name": "Table salt", "language": "en", "name_type": "common"},
+    {"name": "Halite", "language": "en", "name_type": "mineral"},
+    {"name": "Rock salt", "language": "en", "name_type": "common"},
+    {"name": "食盐", "language": "zh", "name_type": "common"},
+    {"name": "海盐", "language": "zh", "name_type": "common"}
+  ],
+  "properties": [
+    {"property_type": "melting_point", "value": 801, "unit": "°C", "source": "web_search"},
+    {"property_type": "boiling_point", "value": 1465, "unit": "°C", "source": "web_search"},
+    {"property_type": "density", "value": 2.17, "unit": "g/cm3", "condition_temp": 20, "source": "web_search"},
+    {"property_type": "refractive_index", "value": 1.5442, "unit": "", "source": "web_search"},
+    {"property_type": "solubility", "value": 360, "unit": "g/L", "condition_temp": 25, "value_text": "Very high; nearly temperature-independent", "source": "web_search"},
+    {"property_type": "vapor_pressure", "value": 0.133, "unit": "kPa", "condition_temp": 865, "source": "web_search"}
+  ],
+  "thermodynamics": [
+    {"data_type": "enthalpy_of_formation", "value": -411.12, "unit": "kJ/mol", "phase": "s", "standard_state": true, "source": "web_search"},
+    {"data_type": "enthalpy_of_formation", "value": -385.92, "unit": "kJ/mol", "phase": "l", "source": "web_search"},
+    {"data_type": "entropy", "value": 72.10, "unit": "J/(mol·K)", "phase": "s", "standard_state": true, "source": "web_search"},
+    {"data_type": "heat_capacity", "value": 50.5, "unit": "J/(mol·K)", "phase": "s", "source": "web_search"}
+  ],
+  "reactions": [
+    {"equation": "2NaCl + 2H2O → Cl2↑ + H2↑ + 2NaOH", "reaction_type": "electrolysis", "name_cn": "氯碱法", "source": "web_search"},
+    {"equation": "NaCl + NH3 + CO2 + H2O → NaHCO3↓ + NH4Cl", "reaction_type": "Solvay_precipitation", "name_cn": "索尔维法", "source": "web_search"},
+    {"equation": "NaCl + H2SO4 → NaHSO4 + HCl↑", "reaction_type": "acid_displacement", "name_cn": "曼海姆法", "source": "web_search"},
+    {"equation": "2NaCl(molten) → 2Na + Cl2↑", "reaction_type": "electrolysis", "name_cn": "Downs法（电解熔融盐制金属钠）", "source": "web_search"}
+  ],
+  "processes": [{
+    "process_name_cn": "采矿+真空蒸发",
+    "process_name_en": "Mining + Vacuum Evaporation",
+    "description_cn": "氯化钠主要有三大来源：1) 岩盐矿开采（地下盐层，机械或水力开采）；2) 海水/盐湖日晒蒸发（太阳能蒸发浓缩结晶）；3) 真空蒸发精制盐（溶解后化学处理除杂，多效蒸发结晶制高纯盐）。氯碱工业是氯化钠最大的化工用途，电解食盐水同时生产氯气、氢气和烧碱（2NaCl + 2H₂O → Cl₂ + H₂ + 2NaOH）。其他化工用途：索尔维法制纯碱、合成盐酸（曼海姆法）、电解熔融盐制金属钠（Downs法）。此外广泛用于道路除冰、食品加工保存、水处理（离子交换树脂再生）和制药。",
+    "raw_materials": ["Seawater / Rock salt deposits / Brine wells"],
+    "industrial_significance": "氯化钠是人类使用最悠久的化学品之一。全球年产量超过3亿吨。氯碱工业是NaCl最大的工业消费领域。",
+    "source": "web_search"
+  }],
+  "safety": {
+    "nfpa_health": 0, "nfpa_fire": 0, "nfpa_reactivity": 0,
+    "signal_word": "None (Generally Recognized As Safe)",
+    "storage_condition": "Hygroscopic — store in closed containers in dry area. Non-flammable, non-toxic."
+  },
+  "validation": {"sources_used": ["web_search"], "overall_confidence": 0.90, "conflicts": []}
+}

@@ -1,0 +1,57 @@
+{
+  "substance": {
+    "cas_number": "7727-37-9",
+    "name_cn": "氮气",
+    "name_en": "Nitrogen",
+    "molecular_formula": "N2",
+    "molecular_weight": 28.013,
+    "smiles": "N#N",
+    "substance_type": "inorganic",
+    "chemical_class": "nonmetal_element",
+    "state_at_25c": "gas"
+  },
+  "names": [{"name": "Dinitrogen", "language": "en", "name_type": "systematic"}, {"name": "液氮", "language": "zh", "name_type": "common"}],
+  "properties": [
+    {"property_type": "boiling_point", "value": -195.8, "unit": "°C", "source": "web_search"},
+    {"property_type": "melting_point", "value": -210.0, "unit": "°C", "source": "web_search"},
+    {"property_type": "density", "value": 0.0012506, "unit": "g/cm3", "value_text": "gas at STP", "source": "web_search"},
+    {"property_type": "density", "value": 0.808, "unit": "g/cm3", "value_text": "liquid at boiling point", "source": "web_search"},
+    {"property_type": "critical_temperature", "value": -146.9, "unit": "°C", "source": "web_search"},
+    {"property_type": "critical_pressure", "value": 3.40, "unit": "MPa", "source": "web_search"},
+    {"property_type": "solubility", "value": 0.019, "unit": "g/L", "condition_temp": 20, "value_text": "Slightly soluble", "source": "web_search"},
+    {"property_type": "bond_energy", "value": 945.4, "unit": "kJ/mol", "value_text": "N≡N triple bond — extremely strong", "source": "web_search"}
+  ],
+  "thermodynamics": [
+    {"data_type": "enthalpy_of_vaporization", "value": 5.57, "unit": "kJ/mol", "source": "web_search"},
+    {"data_type": "enthalpy_of_fusion", "value": 0.72, "unit": "kJ/mol", "source": "web_search"},
+    {"data_type": "heat_capacity", "value": 29.12, "unit": "J/(mol·K)", "phase": "g", "condition_temp": 25, "source": "web_search"},
+    {"data_type": "entropy", "value": 191.6, "unit": "J/(mol·K)", "phase": "g", "standard_state": true, "source": "web_search"}
+  ],
+  "reactions": [
+    {"equation": "N2 + 3H2 ⇌ 2NH3", "delta_h": -92.4, "delta_h_unit": "kJ/mol", "reaction_type": "fixation", "name_cn": "哈柏法", "source": "web_search"},
+    {"equation": "N2 + O2 → 2NO (at high temperature)", "reaction_type": "oxidation", "source": "web_search"}
+  ],
+  "processes": [{
+    "process_name_cn": "深冷空分法",
+    "process_name_en": "Cryogenic Air Separation",
+    "description_cn": "工业氮气主要通过深冷空分制取。空气经压缩、净化（脱除CO₂、H₂O）后冷却至~-185°C使其液化，在精馏塔中根据沸点差异（N₂: -195.8°C, O₂: -183.0°C, Ar: -185.9°C）分离。氮气沸点最低，从塔顶馏出，纯度可达99.999%+。中小规模也可使用变压吸附（PSA，碳分子筛选择性吸附O₂，纯度95-99.999%）或膜分离（纯度95-99.5%）。实验室中用NH₄Cl + NaNO₂热分解制取少量氮气。",
+    "temperature_min": -196,
+    "temperature_max": -183,
+    "raw_materials": ["Air"],
+    "byproducts": ["Oxygen (O2)", "Argon (Ar)"],
+    "industrial_significance": "氮气是地球上最丰富的气体（空气~78%）。工业上主要用于合成氨（哈柏法）、化工惰性保护气、食品保鲜（MAP气调包装）、电子工业载气、金属热处理和低温冷冻（液氮，-196°C）。",
+    "source": "web_search"
+  }],
+  "safety": {
+    "ghs_classifications": [{"code": "GHS04", "label": "压缩气体"}],
+    "signal_word": "Warning",
+    "h_codes": ["H280: Contains gas under pressure; may explode if heated"],
+    "p_codes": ["P410+P403: Protect from sunlight. Store in a well-ventilated place"],
+    "nfpa_health": 0,
+    "nfpa_fire": 0,
+    "nfpa_reactivity": 0,
+    "un_number": "1066",
+    "storage_condition": "Asphyxiant — displaces oxygen in confined spaces. O₂ monitoring mandatory in LN₂ areas."
+  },
+  "validation": {"sources_used": ["web_search"], "overall_confidence": 0.85, "conflicts": []}
+}

@@ -1,0 +1,50 @@
+{
+  "substance": {
+    "cas_number": "1305-62-0", "name_cn": "氢氧化钙", "name_en": "Calcium hydroxide",
+    "molecular_formula": "Ca(OH)2", "molecular_weight": 74.093,
+    "substance_type": "inorganic", "chemical_class": "base", "state_at_25c": "solid"
+  },
+  "names": [
+    {"name": "Slaked lime", "language": "en", "name_type": "common"},
+    {"name": "Hydrated lime", "language": "en", "name_type": "technical"},
+    {"name": "熟石灰", "language": "zh", "name_type": "common"},
+    {"name": "消石灰", "language": "zh", "name_type": "common"},
+    {"name": "Portlandite", "language": "en", "name_type": "mineral"},
+    {"name": "E526", "language": "en", "name_type": "food_additive"}
+  ],
+  "properties": [
+    {"property_type": "decomposition_temperature", "value": 512, "unit": "°C", "value_text": "Decomposes to CaO + H2O; does not truly melt", "source": "web_search"},
+    {"property_type": "density", "value": 2.24, "unit": "g/cm3", "source": "web_search"},
+    {"property_type": "solubility", "value": 1.73, "unit": "g/L", "condition_temp": 20, "value_text": "Retrograde solubility — decreases with increasing temperature", "source": "web_search"},
+    {"property_type": "solubility", "value": 1.89, "unit": "g/L", "condition_temp": 0, "source": "web_search"},
+    {"property_type": "pH", "value": 12.4, "unit": "", "value_text": "Saturated solution at 25°C", "source": "web_search"},
+    {"property_type": "Ksp", "value": 5.02e-6, "unit": "", "condition_temp": 25, "source": "web_search"}
+  ],
+  "thermodynamics": [
+    {"data_type": "enthalpy_of_formation", "value": -986.1, "unit": "kJ/mol", "phase": "s", "standard_state": true, "source": "web_search"}
+  ],
+  "reactions": [
+    {"equation": "Ca(OH)2 + CO2 → CaCO3↓ + H2O", "reaction_type": "carbonation", "value_text": "Limewater test — forms milky suspension", "source": "web_search"},
+    {"equation": "Ca(OH)2 + 2HCl → CaCl2 + 2H2O", "reaction_type": "neutralization", "source": "web_search"},
+    {"equation": "Ca(OH)2 + Na2CO3 → CaCO3↓ + 2NaOH", "reaction_type": "causticization", "value_text": "Kraft process in paper pulping", "source": "web_search"},
+    {"equation": "Ca(OH)2 → CaO + H2O (at ≥512°C)", "reaction_type": "decomposition", "source": "web_search"}
+  ],
+  "processes": [{
+    "process_name_cn": "石灰消化法",
+    "process_name_en": "Lime Slaking",
+    "description_cn": "氢氧化钙由生石灰（CaO）与水反应（'消化'或'熟化'）制得：CaO + H₂O → Ca(OH)₂ + 热。这是放热反应。控制加水量可得不同形态：干消石灰粉（计量水）、石灰膏（过量水）、石灰乳（大量水，悬浮液）。全球年产量约1.25亿吨。用途广泛：建筑（灰泥、砂浆、白涂料）、水处理（絮凝、pH调节、软化）、食品工业（E526，玉米碱化/nixtamalization、制糖澄清）、造纸（Kraft工艺苛化）、农业（土壤改良、杀菌剂）、牙科（根管治疗抑菌剂）。",
+    "raw_materials": ["Calcium oxide (CaO)", "Water (H2O)"],
+    "industrial_significance": "氢氧化钙是一种廉价强碱，以逆溶解度（温度越高溶解度越低）为特征。在建筑、水处理、食品和化工中广泛应用。",
+    "source": "web_search"
+  }],
+  "safety": {
+    "ghs_classifications": [{"code": "GHS05", "label": "腐蚀性"}, {"code": "GHS07", "label": "健康危害"}],
+    "signal_word": "Danger",
+    "h_codes": ["H314: Causes severe skin burns and eye damage", "H335: May cause respiratory irritation"],
+    "p_codes": ["P280: Wear protective gloves/clothing/eye protection"],
+    "nfpa_health": 3, "nfpa_fire": 0, "nfpa_reactivity": 0,
+    "ld50_oral": 7340, "un_number": "3262",
+    "exposure_limits": "NIOSH REL: TWA 5 mg/m³; OSHA PEL: TWA 15 mg/m³ (total)"
+  },
+  "validation": {"sources_used": ["web_search"], "overall_confidence": 0.85, "conflicts": []}
+}
