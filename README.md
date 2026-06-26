@@ -1,6 +1,6 @@
 # 工业化学物质知识库 (Industrial Chemistry Knowledge Base)
 
-湖南铼硙科技有限公司 — AI 辅助 P&ID 自动生成系统的结构化化学数据库。
+AI 辅助 P&ID 自动生成系统的结构化化学数据库。
 
 ## 项目简介
 
