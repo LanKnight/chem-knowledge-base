@@ -193,8 +193,6 @@ chemdb stats --data-dir ./data/substances
 
 ## License
 
-本项目为湖南铼硙科技有限公司内部项目。
-
 ---
 
 Built with ❤️ using Python, PostgreSQL, and Claude Code.
